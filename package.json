@@ -10,7 +10,7 @@
     "seed:pack": "ts-node prisma/seed-pack.ts",
     "prisma:generate": "prisma generate",
     "seed": "prisma db seed",
-    "prisma:deploy": "prisma generate && prisma migrate deploy"
+    "prisma:deploy": "npx prisma generate && npx prisma migrate deploy"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"

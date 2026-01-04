@@ -4,13 +4,15 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "build": "tsc",
+    "build": "npm run prisma:generate && tsc",
     "start": "node dist/server.js",
-    "prisma:migrate": "prisma migrate deploy",
+
+    "prisma:generate": "node ./node_modules/prisma/build/index.js generate",
+    "prisma:migrate": "node ./node_modules/prisma/build/index.js migrate deploy",
+    "prisma:deploy": "npm run prisma:generate && npm run prisma:migrate",
+
     "seed:pack": "ts-node prisma/seed-pack.ts",
-    "prisma:generate": "prisma generate",
-    "seed": "prisma db seed",
-    "prisma:deploy": "npx prisma generate && npx prisma migrate deploy"
+    "seed": "node ./node_modules/prisma/build/index.js db seed"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"

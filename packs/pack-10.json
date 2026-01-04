@@ -1,0 +1,458 @@
+{
+  "chapters": [
+    {
+      "title": "Géographie de la Guinée",
+      "period": "Général",
+      "order": 1,
+      "content": "Ce chapitre aborde la géographie de la Guinée : régions naturelles, villes et éléments clés pour mieux situer le pays.",
+      "questions": [
+        {
+          "text": "Quelle est la capitale de la Guinée ?",
+          "answers": [
+            { "text": "Conakry", "isCorrect": true },
+            { "text": "Labé", "isCorrect": false },
+            { "text": "Kankan", "isCorrect": false },
+            { "text": "Kindia", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle région naturelle est surtout connue pour ses montagnes et ses sources ?",
+          "answers": [
+            { "text": "Le Fouta-Djalon", "isCorrect": true },
+            { "text": "La Basse-Guinée", "isCorrect": false },
+            { "text": "La Haute-Guinée", "isCorrect": false },
+            { "text": "La Guinée Forestière", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle grande ville se situe en Haute-Guinée ?",
+          "answers": [
+            { "text": "Kankan", "isCorrect": true },
+            { "text": "Boké", "isCorrect": false },
+            { "text": "Forécariah", "isCorrect": false },
+            { "text": "Coyah", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle région est réputée pour sa forte couverture forestière ?",
+          "answers": [
+            { "text": "La Guinée Forestière", "isCorrect": true },
+            { "text": "La Moyenne-Guinée", "isCorrect": false },
+            { "text": "La Basse-Guinée", "isCorrect": false },
+            { "text": "La Haute-Guinée", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Histoire : Indépendance de la Guinée",
+      "period": "1958",
+      "order": 2,
+      "content": "La Guinée devient indépendante en 1958 après le célèbre « NON » au référendum. Ce chapitre revient sur les repères essentiels.",
+      "questions": [
+        {
+          "text": "En quelle année la Guinée a-t-elle obtenu son indépendance ?",
+          "answers": [
+            { "text": "1958", "isCorrect": true },
+            { "text": "1960", "isCorrect": false },
+            { "text": "1945", "isCorrect": false },
+            { "text": "1970", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle date marque l’indépendance officielle de la Guinée ?",
+          "answers": [
+            { "text": "2 octobre 1958", "isCorrect": true },
+            { "text": "1er janvier 1959", "isCorrect": false },
+            { "text": "25 décembre 1958", "isCorrect": false },
+            { "text": "14 juillet 1958", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel leader guinéen est associé au « NON » de 1958 ?",
+          "answers": [
+            { "text": "Ahmed Sékou Touré", "isCorrect": true },
+            { "text": "Lansana Conté", "isCorrect": false },
+            { "text": "Alpha Condé", "isCorrect": false },
+            { "text": "Sory Kandia Kouyaté", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le « NON » de 1958 concernait principalement :",
+          "answers": [
+            { "text": "Un référendum sur la Communauté française", "isCorrect": true },
+            { "text": "Une élection présidentielle", "isCorrect": false },
+            { "text": "Une réforme monétaire", "isCorrect": false },
+            { "text": "Un traité militaire", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Figures historiques : Samory Touré",
+      "period": "XIXe siècle",
+      "order": 3,
+      "content": "Samory Touré est une figure majeure de la résistance ouest-africaine face à la colonisation française.",
+      "questions": [
+        {
+          "text": "Samory Touré est surtout connu pour :",
+          "answers": [
+            { "text": "Sa résistance contre la colonisation française", "isCorrect": true },
+            { "text": "La fondation de Dakar", "isCorrect": false },
+            { "text": "La création de l’ONU", "isCorrect": false },
+            { "text": "La découverte de l’or en Afrique du Sud", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Samory Touré a fondé quel empire ?",
+          "answers": [
+            { "text": "L’Empire du Wassoulou", "isCorrect": true },
+            { "text": "L’Empire du Mali", "isCorrect": false },
+            { "text": "L’Empire du Ghana", "isCorrect": false },
+            { "text": "L’Empire Songhaï", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Samory Touré a été capturé en :",
+          "answers": [
+            { "text": "1898", "isCorrect": true },
+            { "text": "1958", "isCorrect": false },
+            { "text": "1914", "isCorrect": false },
+            { "text": "1789", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les forces coloniales combattues par Samory Touré étaient principalement :",
+          "answers": [
+            { "text": "Les troupes françaises", "isCorrect": true },
+            { "text": "Les troupes italiennes", "isCorrect": false },
+            { "text": "Les troupes britanniques", "isCorrect": false },
+            { "text": "Les troupes portugaises", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Empires d’Afrique de l’Ouest : Mali",
+      "period": "XIIIe–XVIe siècle",
+      "order": 4,
+      "content": "L’Empire du Mali est l’un des grands empires ouest-africains. Il est associé à Soundiata Keïta et à Mansa Musa.",
+      "questions": [
+        {
+          "text": "Qui est le fondateur de l’Empire du Mali ?",
+          "answers": [
+            { "text": "Soundiata Keïta", "isCorrect": true },
+            { "text": "Mansa Musa", "isCorrect": false },
+            { "text": "Askia Mohamed", "isCorrect": false },
+            { "text": "Samory Touré", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Mansa Musa est célèbre pour :",
+          "answers": [
+            { "text": "Sa richesse et son pèlerinage à La Mecque", "isCorrect": true },
+            { "text": "Avoir fondé la CEDEAO", "isCorrect": false },
+            { "text": "Avoir vaincu Napoléon", "isCorrect": false },
+            { "text": "Avoir inventé l’imprimerie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle bataille est associée à Soundiata Keïta ?",
+          "answers": [
+            { "text": "La bataille de Kirina", "isCorrect": true },
+            { "text": "La bataille de Waterloo", "isCorrect": false },
+            { "text": "La bataille de Zama", "isCorrect": false },
+            { "text": "La bataille d’Hastings", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "L’Empire du Mali était surtout connu pour :",
+          "answers": [
+            { "text": "Le commerce transsaharien (or, sel)", "isCorrect": true },
+            { "text": "La production de pétrole", "isCorrect": false },
+            { "text": "La construction de gratte-ciel", "isCorrect": false },
+            { "text": "La navigation polaire", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Institutions africaines : CEDEAO",
+      "period": "XXe–XXIe siècle",
+      "order": 5,
+      "content": "La CEDEAO est une organisation régionale ouest-africaine qui vise l’intégration économique et la libre circulation.",
+      "questions": [
+        {
+          "text": "Que signifie CEDEAO ?",
+          "answers": [
+            { "text": "Communauté Économique des États de l’Afrique de l’Ouest", "isCorrect": true },
+            { "text": "Commission Européenne des États d’Afrique de l’Ouest", "isCorrect": false },
+            { "text": "Confédération des États du Nord d’Afrique", "isCorrect": false },
+            { "text": "Conseil Économique des États Africains", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "L’objectif principal de la CEDEAO est :",
+          "answers": [
+            { "text": "L’intégration économique et la libre circulation", "isCorrect": true },
+            { "text": "La création d’une armée mondiale", "isCorrect": false },
+            { "text": "La gestion de l’euro", "isCorrect": false },
+            { "text": "La gouvernance de l’Union européenne", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Guinée fait-elle partie de la CEDEAO ?",
+          "answers": [
+            { "text": "Oui", "isCorrect": true },
+            { "text": "Non", "isCorrect": false },
+            { "text": "Seulement en temps de guerre", "isCorrect": false },
+            { "text": "Uniquement pour le sport", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La CEDEAO concerne surtout :",
+          "answers": [
+            { "text": "L’Afrique de l’Ouest", "isCorrect": true },
+            { "text": "L’Afrique du Nord", "isCorrect": false },
+            { "text": "L’Afrique australe", "isCorrect": false },
+            { "text": "L’Europe", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Capitale et pays : Afrique de l’Ouest",
+      "period": "Général",
+      "order": 6,
+      "content": "Ce chapitre teste ta connaissance des capitales d’Afrique de l’Ouest.",
+      "questions": [
+        {
+          "text": "Quelle est la capitale du Sénégal ?",
+          "answers": [
+            { "text": "Dakar", "isCorrect": true },
+            { "text": "Bamako", "isCorrect": false },
+            { "text": "Conakry", "isCorrect": false },
+            { "text": "Abuja", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle est la capitale du Mali ?",
+          "answers": [
+            { "text": "Bamako", "isCorrect": true },
+            { "text": "Niamey", "isCorrect": false },
+            { "text": "Ouagadougou", "isCorrect": false },
+            { "text": "Bissau", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle est la capitale du Niger ?",
+          "answers": [
+            { "text": "Niamey", "isCorrect": true },
+            { "text": "Lomé", "isCorrect": false },
+            { "text": "Accra", "isCorrect": false },
+            { "text": "Monrovia", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle est la capitale du Ghana ?",
+          "answers": [
+            { "text": "Accra", "isCorrect": true },
+            { "text": "Abidjan", "isCorrect": false },
+            { "text": "Freetown", "isCorrect": false },
+            { "text": "Praia", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Culture générale : Dates clés",
+      "period": "Général",
+      "order": 7,
+      "content": "Quelques dates et repères historiques généraux utiles pour un quiz.",
+      "questions": [
+        {
+          "text": "Une décennie correspond à :",
+          "answers": [
+            { "text": "10 ans", "isCorrect": true },
+            { "text": "5 ans", "isCorrect": false },
+            { "text": "20 ans", "isCorrect": false },
+            { "text": "100 ans", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un siècle correspond à :",
+          "answers": [
+            { "text": "100 ans", "isCorrect": true },
+            { "text": "50 ans", "isCorrect": false },
+            { "text": "10 ans", "isCorrect": false },
+            { "text": "1 000 ans", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Seconde Guerre mondiale se termine en :",
+          "answers": [
+            { "text": "1945", "isCorrect": true },
+            { "text": "1939", "isCorrect": false },
+            { "text": "1918", "isCorrect": false },
+            { "text": "1958", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La date du 1er janvier correspond généralement à :",
+          "answers": [
+            { "text": "Le début de la nouvelle année", "isCorrect": true },
+            { "text": "La fête nationale universelle", "isCorrect": false },
+            { "text": "La fin de l’année scolaire", "isCorrect": false },
+            { "text": "Le jour le plus court partout", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Panafricanisme : Idées et symboles",
+      "period": "XXe siècle",
+      "order": 8,
+      "content": "Le panafricanisme vise l’unité, la solidarité et la coopération entre les peuples africains.",
+      "questions": [
+        {
+          "text": "Le panafricanisme vise principalement :",
+          "answers": [
+            { "text": "L’unité et la solidarité des peuples africains", "isCorrect": true },
+            { "text": "La colonisation de l’Afrique", "isCorrect": false },
+            { "text": "La division des États", "isCorrect": false },
+            { "text": "La suppression des cultures", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel organisme continental représente l’Afrique aujourd’hui ?",
+          "answers": [
+            { "text": "L’Union africaine (UA)", "isCorrect": true },
+            { "text": "L’ONU", "isCorrect": false },
+            { "text": "L’Union européenne", "isCorrect": false },
+            { "text": "L’OTAN", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le panafricanisme est souvent associé à :",
+          "answers": [
+            { "text": "La coopération politique et culturelle", "isCorrect": true },
+            { "text": "L’isolement total des pays", "isCorrect": false },
+            { "text": "L’interdiction du commerce", "isCorrect": false },
+            { "text": "La suppression des langues", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le siège de l’Union africaine se trouve à :",
+          "answers": [
+            { "text": "Addis-Abeba", "isCorrect": true },
+            { "text": "Le Caire", "isCorrect": false },
+            { "text": "Dakar", "isCorrect": false },
+            { "text": "Abuja", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sport : Repères africains",
+      "period": "XXe–XXIe siècle",
+      "order": 9,
+      "content": "Chapitre sport/culture : compétitions et repères généraux.",
+      "questions": [
+        {
+          "text": "La CAN est une compétition de :",
+          "answers": [
+            { "text": "Football africain", "isCorrect": true },
+            { "text": "Basketball européen", "isCorrect": false },
+            { "text": "Tennis mondial", "isCorrect": false },
+            { "text": "Rugby américain", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La FIFA est liée principalement :",
+          "answers": [
+            { "text": "Au football", "isCorrect": true },
+            { "text": "Au handball", "isCorrect": false },
+            { "text": "À la boxe", "isCorrect": false },
+            { "text": "À l’athlétisme", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les Jeux Olympiques sont un événement :",
+          "answers": [
+            { "text": "Sportif international", "isCorrect": true },
+            { "text": "Uniquement africain", "isCorrect": false },
+            { "text": "Uniquement européen", "isCorrect": false },
+            { "text": "Uniquement scolaire", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un match nul signifie :",
+          "answers": [
+            { "text": "Aucun gagnant", "isCorrect": true },
+            { "text": "Deux gagnants", "isCorrect": false },
+            { "text": "Un forfait", "isCorrect": false },
+            { "text": "Une disqualification automatique", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Citoyenneté : Institutions et rôles",
+      "period": "Général",
+      "order": 10,
+      "content": "Chapitre citoyenneté : notions simples sur l’État, les institutions et le rôle du citoyen.",
+      "questions": [
+        {
+          "text": "Une constitution sert principalement à :",
+          "answers": [
+            { "text": "Définir les règles fondamentales d’un État", "isCorrect": true },
+            { "text": "Remplacer toutes les lois", "isCorrect": false },
+            { "text": "Interdire les élections", "isCorrect": false },
+            { "text": "Gérer la météo", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le rôle d’un citoyen comprend souvent :",
+          "answers": [
+            { "text": "Respecter les lois et participer à la vie publique", "isCorrect": true },
+            { "text": "Décider seul des lois", "isCorrect": false },
+            { "text": "Refuser tout impôt partout", "isCorrect": false },
+            { "text": "Supprimer les institutions", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une élection sert à :",
+          "answers": [
+            { "text": "Choisir des représentants", "isCorrect": true },
+            { "text": "Annuler la constitution", "isCorrect": false },
+            { "text": "Supprimer les écoles", "isCorrect": false },
+            { "text": "Interdire la justice", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La justice est liée à :",
+          "answers": [
+            { "text": "L’application du droit", "isCorrect": true },
+            { "text": "La création des routes", "isCorrect": false },
+            { "text": "La gestion des ports", "isCorrect": false },
+            { "text": "Le sport national", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Explorateur",
+      "description": "Tu as joué un pack de chapitres variés.",
+      "icon": "🧭",
+      "condition": "Jouer un pack multi-thèmes"
+    },
+    {
+      "title": "Curieux",
+      "description": "Tu as terminé plusieurs chapitres.",
+      "icon": "🧠",
+      "condition": "Terminer plusieurs chapitres"
+    }
+  ]
+}

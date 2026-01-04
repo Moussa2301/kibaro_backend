@@ -1,0 +1,154 @@
+{
+  "chapters": [
+    {
+      "title": "Histoire contemporaine de l’Afrique",
+      "period": "XXe–XXIe siècle",
+      "order": 1,
+      "content": "Ce chapitre aborde quelques événements marquants de l’histoire récente de l’Afrique : fin de l’apartheid, génocides, conflits et transitions démocratiques.",
+      "questions": [
+        {
+          "text": "Dans quel pays l’apartheid a-t-il officiellement pris fin au début des années 1990 ?",
+          "answers": [
+            { "text": "Afrique du Sud", "isCorrect": true },
+            { "text": "Namibie", "isCorrect": false },
+            { "text": "Kenya", "isCorrect": false },
+            { "text": "Algérie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "En 1994, quel drame humain majeur a eu lieu au Rwanda ?",
+          "answers": [
+            { "text": "Un génocide", "isCorrect": true },
+            { "text": "Un tsunami", "isCorrect": false },
+            { "text": "Un tremblement de terre historique", "isCorrect": false },
+            { "text": "Une éruption volcanique", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays africain a connu une guerre civile longue entre le Nord et le Sud, conduisant à la création du Soudan du Sud en 2011 ?",
+          "answers": [
+            { "text": "Le Soudan", "isCorrect": true },
+            { "text": "Le Tchad", "isCorrect": false },
+            { "text": "La Libye", "isCorrect": false },
+            { "text": "L’Égypte", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel prix prestigieux Nelson Mandela et Frederik de Klerk ont-ils reçu ensemble en 1993 ?",
+          "answers": [
+            { "text": "Le prix Nobel de la paix", "isCorrect": true },
+            { "text": "Le Ballon d’Or", "isCorrect": false },
+            { "text": "Le prix Goncourt", "isCorrect": false },
+            { "text": "Le prix Sakharov", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays africain a changé de nom pour devenir la République démocratique du Congo (RDC) ?",
+          "answers": [
+            { "text": "L’ex-Zaïre", "isCorrect": true },
+            { "text": "L’ex-Gold Coast", "isCorrect": false },
+            { "text": "L’ex-Rhodésie", "isCorrect": false },
+            { "text": "L’ex-Bassoutoland", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Dans de nombreux pays africains, les années 1990 ont été marquées par :",
+          "answers": [
+            { "text": "Le retour au multipartisme et aux élections pluralistes", "isCorrect": true },
+            { "text": "La colonisation européenne", "isCorrect": false },
+            { "text": "La fin de toutes les frontières", "isCorrect": false },
+            { "text": "L’abandon total des élections", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel est l’un des enjeux majeurs actuels pour la jeunesse africaine ?",
+          "answers": [
+            { "text": "L’accès à l’éducation, à l’emploi et à la participation citoyenne", "isCorrect": true },
+            { "text": "Le retour à l’esclavage", "isCorrect": false },
+            { "text": "L’abandon du numérique", "isCorrect": false },
+            { "text": "La fermeture de toutes les frontières intérieures", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Institutions, économie et intégration régionale",
+      "period": "XXe–XXIe siècle",
+      "order": 2,
+      "content": "Ce chapitre traite de la coopération économique et politique en Afrique : organisations régionales, monnaies et défis du développement.",
+      "questions": [
+        {
+          "text": "Quel sigle désigne la communauté économique régionale qui regroupe 15 États d’Afrique de l’Ouest ?",
+          "answers": [
+            { "text": "CEDEAO", "isCorrect": true },
+            { "text": "SADC", "isCorrect": false },
+            { "text": "UE", "isCorrect": false },
+            { "text": "OTAN", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays n’utilise PAS le franc CFA ?",
+          "answers": [
+            { "text": "Nigeria", "isCorrect": true },
+            { "text": "Sénégal", "isCorrect": false },
+            { "text": "Côte d’Ivoire", "isCorrect": false },
+            { "text": "Mali", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel secteur est aujourd’hui central dans la transformation économique de l’Afrique (emplois, innovation, services) ?",
+          "answers": [
+            { "text": "Le numérique et les technologies de l’information", "isCorrect": true },
+            { "text": "La construction de pyramides", "isCorrect": false },
+            { "text": "L’exploitation des mines sur la Lune", "isCorrect": false },
+            { "text": "La chasse à la baleine", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel obstacle freine souvent l’intégration économique régionale en Afrique ?",
+          "answers": [
+            { "text": "La faiblesse des infrastructures (routes, énergie, connexions)", "isCorrect": true },
+            { "text": "Le fait qu’il n’y ait aucun jeune sur le continent", "isCorrect": false },
+            { "text": "L’absence totale de villes", "isCorrect": false },
+            { "text": "Le climat polaire", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "L’Agenda 2063 de l’Union africaine est :",
+          "answers": [
+            { "text": "Une vision de développement et d’intégration pour l’Afrique à long terme", "isCorrect": true },
+            { "text": "Un traité militaire européen", "isCorrect": false },
+            { "text": "Un plan pour supprimer toutes les écoles africaines", "isCorrect": false },
+            { "text": "Une marque de téléphone portable", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Zone de libre-échange continentale africaine (ZLECAf) vise à :",
+          "answers": [
+            { "text": "Faciliter le commerce entre les pays africains", "isCorrect": true },
+            { "text": "Interdire tout commerce en Afrique", "isCorrect": false },
+            { "text": "Remplacer toutes les monnaies par le dollar américain", "isCorrect": false },
+            { "text": "Exclure tous les petits États du continent", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Pour beaucoup de pays africains, l’un des grands défis économiques reste :",
+          "answers": [
+            { "text": "La dépendance aux exportations de matières premières brutes", "isCorrect": true },
+            { "text": "La surpopulation de satellites", "isCorrect": false },
+            { "text": "Le manque total de ressources naturelles", "isCorrect": false },
+            { "text": "L’obligation d’exporter des pyramides", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Analyste de l’Afrique moderne",
+      "description": "Tu maîtrises les enjeux contemporains de l’Afrique.",
+      "icon": "📊",
+      "condition": "Quiz général niveau 2 complété"
+    }
+  ]
+}

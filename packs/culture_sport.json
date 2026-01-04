@@ -1,0 +1,150 @@
+{
+  "chapters": [
+    {
+      "title": "Football africain",
+      "period": "XXe–XXIe siècle",
+      "order": 1,
+      "content": "Le football est le sport le plus populaire du continent africain. De nombreuses sélections nationales et joueurs ont marqué l’histoire de la CAN et des Coupes du monde.",
+      "questions": [
+        {
+          "text": "Quel tournoi est la principale compétition de football entre équipes nationales africaines ?",
+          "answers": [
+            { "text": "La Coupe d’Afrique des Nations (CAN)", "isCorrect": true },
+            { "text": "La Ligue des Champions", "isCorrect": false },
+            { "text": "La Copa America", "isCorrect": false },
+            { "text": "L’Euro", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays détient l’un des plus grands palmarès de la CAN ?",
+          "answers": [
+            { "text": "Égypte", "isCorrect": true },
+            { "text": "Guinée", "isCorrect": false },
+            { "text": "Namibie", "isCorrect": false },
+            { "text": "Botswana", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel footballeur africain a remporté le Ballon d’Or France Football en 1995 ?",
+          "answers": [
+            { "text": "George Weah", "isCorrect": true },
+            { "text": "Samuel Eto’o", "isCorrect": false },
+            { "text": "Didier Drogba", "isCorrect": false },
+            { "text": "Mohamed Salah", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays a accueilli la première Coupe du monde organisée sur le continent africain en 2010 ?",
+          "answers": [
+            { "text": "Afrique du Sud", "isCorrect": true },
+            { "text": "Égypte", "isCorrect": false },
+            { "text": "Maroc", "isCorrect": false },
+            { "text": "Nigeria", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Musique moderne africaine",
+      "period": "XXe–XXIe siècle",
+      "order": 2,
+      "content": "De l’afrobeat au coupé-décalé, en passant par l’afro-pop et le mbalax, la musique moderne africaine rayonne bien au-delà du continent.",
+      "questions": [
+        {
+          "text": "Quel artiste nigérian est considéré comme le père de l’afrobeat ?",
+          "answers": [
+            { "text": "Fela Kuti", "isCorrect": true },
+            { "text": "Burnaboy", "isCorrect": false },
+            { "text": "Wizkid", "isCorrect": false },
+            { "text": "Davido", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le coupé-décalé est un style musical né dans :",
+          "answers": [
+            { "text": "La diaspora ivoirienne à Paris", "isCorrect": true },
+            { "text": "Les rues de Lagos", "isCorrect": false },
+            { "text": "Les boîtes de nuit de Johannesburg", "isCorrect": false },
+            { "text": "Les villages du Fouta-Djalon", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Youssou Ndour est un chanteur originaire de :",
+          "answers": [
+            { "text": "Sénégal", "isCorrect": true },
+            { "text": "Guinée", "isCorrect": false },
+            { "text": "Cameroun", "isCorrect": false },
+            { "text": "Ghana", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel style sénégalais mélange percussions traditionnelles et influences modernes ?",
+          "answers": [
+            { "text": "Le mbalax", "isCorrect": true },
+            { "text": "Le reggae", "isCorrect": false },
+            { "text": "Le zouk", "isCorrect": false },
+            { "text": "Le tango", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Patrimoine et sites emblématiques",
+      "period": "Antiquité–XXIe siècle",
+      "order": 3,
+      "content": "L’Afrique possède de nombreux sites historiques et culturels reconnus dans le monde entier, dont plusieurs sont inscrits au patrimoine mondial de l’UNESCO.",
+      "questions": [
+        {
+          "text": "Les pyramides de Gizeh se trouvent dans quel pays africain ?",
+          "answers": [
+            { "text": "Égypte", "isCorrect": true },
+            { "text": "Soudan", "isCorrect": false },
+            { "text": "Maroc", "isCorrect": false },
+            { "text": "Éthiopie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "L’île de Gorée, symbole de la traite négrière, se situe au large de :",
+          "answers": [
+            { "text": "Dakar", "isCorrect": true },
+            { "text": "Conakry", "isCorrect": false },
+            { "text": "Abidjan", "isCorrect": false },
+            { "text": "Luanda", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les ruines de Great Zimbabwe se trouvent dans :",
+          "answers": [
+            { "text": "Le Zimbabwe", "isCorrect": true },
+            { "text": "L’Éthiopie", "isCorrect": false },
+            { "text": "Le Kenya", "isCorrect": false },
+            { "text": "Le Niger", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel lac africain est l’un des plus grands au monde et se trouve entre la Tanzanie, l’Ouganda et le Kenya ?",
+          "answers": [
+            { "text": "Le lac Victoria", "isCorrect": true },
+            { "text": "Le lac Tanganyika", "isCorrect": false },
+            { "text": "Le lac Tchad", "isCorrect": false },
+            { "text": "Le lac Malawi", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Fan de foot africain",
+      "description": "Tu maîtrises les bases du football africain.",
+      "icon": "⚽",
+      "condition": "Quiz football africain terminé"
+    },
+    {
+      "title": "Mélomane africain",
+      "description": "Tu connais les grands styles de musique moderne africaine.",
+      "icon": "🎧",
+      "condition": "Quiz musique moderne africaine terminé"
+    }
+  ]
+}

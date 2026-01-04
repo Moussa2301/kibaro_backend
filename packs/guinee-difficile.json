@@ -1,0 +1,447 @@
+{
+  "chapters": [
+    {
+      "title": "Citoyenneté : notions avancées",
+      "period": "Citoyenneté",
+      "order": 1,
+      "content": "Comprendre des notions de gouvernance et d’État au-delà des définitions simples.",
+      "questions": [
+        {
+          "text": "Quel principe décrit le mieux l’idée d’“État de droit” ?",
+          "answers": [
+            { "text": "Les autorités comme les citoyens sont soumis à la loi", "isCorrect": true },
+            { "text": "La loi ne s’applique qu’aux citoyens", "isCorrect": false },
+            { "text": "La loi ne s’applique qu’aux autorités", "isCorrect": false },
+            { "text": "La loi peut être ignorée si on est d’accord", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Dans une démocratie, une élection crédible dépend surtout de :",
+          "answers": [
+            { "text": "Transparence, règles claires et confiance", "isCorrect": true },
+            { "text": "Une seule candidature", "isCorrect": false },
+            { "text": "Aucune règle", "isCorrect": false },
+            { "text": "Interdiction des observateurs", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un service public vise principalement à :",
+          "answers": [
+            { "text": "Répondre à des besoins collectifs", "isCorrect": true },
+            { "text": "Faire uniquement du profit", "isCorrect": false },
+            { "text": "Supprimer l’accès aux soins", "isCorrect": false },
+            { "text": "Interdire l’éducation", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La cohésion sociale repose surtout sur :",
+          "answers": [
+            { "text": "Le respect, l’équité et le dialogue", "isCorrect": true },
+            { "text": "La division systématique", "isCorrect": false },
+            { "text": "L’exclusion", "isCorrect": false },
+            { "text": "La suppression des droits", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Économie : ressources et chaîne de valeur",
+      "period": "Économie",
+      "order": 2,
+      "content": "Comprendre la différence entre extraire une ressource et créer de la valeur localement.",
+      "questions": [
+        {
+          "text": "Créer de la “valeur ajoutée” localement signifie :",
+          "answers": [
+            { "text": "Transformer et développer des compétences sur place", "isCorrect": true },
+            { "text": "Exporter sans transformation", "isCorrect": false },
+            { "text": "Interdire la formation", "isCorrect": false },
+            { "text": "Supprimer l’industrie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel est un risque fréquent d’une économie dépendante d’une seule ressource ?",
+          "answers": [
+            { "text": "Vulnérabilité aux variations des prix", "isCorrect": true },
+            { "text": "Stabilité garantie pour toujours", "isCorrect": false },
+            { "text": "Disparition de toute fiscalité", "isCorrect": false },
+            { "text": "Augmentation automatique de la pluie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un investissement utile pour que les retombées locales augmentent est :",
+          "answers": [
+            { "text": "Formation, infrastructures et PME locales", "isCorrect": true },
+            { "text": "Interdiction d’écoles", "isCorrect": false },
+            { "text": "Suppression des routes", "isCorrect": false },
+            { "text": "Fermeture des marchés", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La “gouvernance” dans l’exploitation des ressources vise surtout :",
+          "answers": [
+            { "text": "Règles, transparence et bénéfices partagés", "isCorrect": true },
+            { "text": "Aucune règle", "isCorrect": false },
+            { "text": "Secret total obligatoire", "isCorrect": false },
+            { "text": "Interdiction de contrôle", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Géographie : lecture de carte (Guinée)",
+      "period": "Géographie",
+      "order": 3,
+      "content": "Questions plus “raisonnement” (côte vs intérieur, zones montagneuses, forêt…).",
+      "questions": [
+        {
+          "text": "Quelle affirmation est la plus logique ?",
+          "answers": [
+            { "text": "Conakry est plus liée à la côte que Kankan", "isCorrect": true },
+            { "text": "Kankan est une ville maritime", "isCorrect": false },
+            { "text": "Le Fouta-Djalon est une île", "isCorrect": false },
+            { "text": "La Guinée Forestière est un désert", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Si une région est décrite comme “château d’eau”, cela renvoie surtout à :",
+          "answers": [
+            { "text": "La présence de nombreuses sources et cours d’eau", "isCorrect": true },
+            { "text": "La présence de pétrole", "isCorrect": false },
+            { "text": "La présence de glace", "isCorrect": false },
+            { "text": "La présence de volcans actifs", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une zone dite “forestière” suggère surtout :",
+          "answers": [
+            { "text": "Une forte couverture végétale", "isCorrect": true },
+            { "text": "Une absence d’arbres", "isCorrect": false },
+            { "text": "Un climat polaire", "isCorrect": false },
+            { "text": "Une zone uniquement urbaine", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "“Intérieur du pays” signifie généralement :",
+          "answers": [
+            { "text": "Loin de la côte", "isCorrect": true },
+            { "text": "Toujours sur une île", "isCorrect": false },
+            { "text": "Toujours près du port", "isCorrect": false },
+            { "text": "Toujours sous la mer", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Culture : repères et transmission",
+      "period": "Culture",
+      "order": 4,
+      "content": "Approche plus conceptuelle : pourquoi la culture compte, comment elle se transmet.",
+      "questions": [
+        {
+          "text": "La transmission culturelle se fait surtout par :",
+          "answers": [
+            { "text": "La famille, l’école, la communauté et les médias", "isCorrect": true },
+            { "text": "Uniquement par internet", "isCorrect": false },
+            { "text": "Uniquement par la police", "isCorrect": false },
+            { "text": "Uniquement par les machines", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Pourquoi préserver des récits et des traditions ?",
+          "answers": [
+            { "text": "Pour maintenir la mémoire et renforcer l’identité", "isCorrect": true },
+            { "text": "Pour supprimer la diversité", "isCorrect": false },
+            { "text": "Pour interdire les langues", "isCorrect": false },
+            { "text": "Pour effacer l’histoire", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une culture vivante est une culture qui :",
+          "answers": [
+            { "text": "Évolue tout en gardant des repères", "isCorrect": true },
+            { "text": "Ne change jamais", "isCorrect": false },
+            { "text": "Interdit toute création", "isCorrect": false },
+            { "text": "Supprime toute transmission", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le respect culturel signifie :",
+          "answers": [
+            { "text": "Reconnaître la dignité et les pratiques des autres", "isCorrect": true },
+            { "text": "Imposer une seule coutume", "isCorrect": false },
+            { "text": "Interdire les différences", "isCorrect": false },
+            { "text": "Se moquer des traditions", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Histoire : esprit critique",
+      "period": "Histoire",
+      "order": 5,
+      "content": "Approche “difficile” : comment raisonner sur des sources et événements.",
+      "questions": [
+        {
+          "text": "Une source historique fiable se juge surtout par :",
+          "answers": [
+            { "text": "Son origine, sa cohérence, et la comparaison avec d’autres sources", "isCorrect": true },
+            { "text": "Sa popularité sur les réseaux", "isCorrect": false },
+            { "text": "Le nombre d’emojis", "isCorrect": false },
+            { "text": "Le fait qu’elle soit anonyme", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Pourquoi comparer plusieurs sources sur un même événement ?",
+          "answers": [
+            { "text": "Pour réduire les biais et mieux comprendre", "isCorrect": true },
+            { "text": "Pour inventer une nouvelle date", "isCorrect": false },
+            { "text": "Pour supprimer l’histoire", "isCorrect": false },
+            { "text": "Pour éviter toute conclusion", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un “contexte historique” sert à :",
+          "answers": [
+            { "text": "Expliquer pourquoi un événement a eu lieu", "isCorrect": true },
+            { "text": "Remplacer l’événement", "isCorrect": false },
+            { "text": "Interdire les archives", "isCorrect": false },
+            { "text": "Annuler la mémoire", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une date seule est souvent insuffisante car :",
+          "answers": [
+            { "text": "Il faut comprendre les causes et conséquences", "isCorrect": true },
+            { "text": "Les dates n’existent pas", "isCorrect": false },
+            { "text": "Les événements n’ont jamais de causes", "isCorrect": false },
+            { "text": "Les conséquences n’existent pas", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+    "title": "Gouvernance locale (difficile)",
+    "period": "Citoyenneté",
+    "order": 6,
+    "content": "Approche plus avancée sur gestion locale, redevabilité et efficacité publique.",
+    "questions": [
+      {
+        "text": "La “redevabilité” signifie surtout :",
+        "answers": [
+          { "text": "Rendre des comptes aux citoyens", "isCorrect": true },
+          { "text": "Faire des promesses sans suivi", "isCorrect": false },
+          { "text": "Travailler sans règles", "isCorrect": false },
+          { "text": "Interdire toute critique", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Une politique publique efficace nécessite souvent :",
+        "answers": [
+          { "text": "Des objectifs clairs et des indicateurs", "isCorrect": true },
+          { "text": "Aucun suivi", "isCorrect": false },
+          { "text": "Zéro données", "isCorrect": false },
+          { "text": "Du secret total", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La transparence aide surtout à :",
+        "answers": [
+          { "text": "Réduire la corruption et renforcer la confiance", "isCorrect": true },
+          { "text": "Créer de la confusion volontaire", "isCorrect": false },
+          { "text": "Empêcher l’accès à l’info", "isCorrect": false },
+          { "text": "Supprimer les preuves", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un budget public sert principalement à :",
+        "answers": [
+          { "text": "Financer des services et priorités", "isCorrect": true },
+          { "text": "Annuler l’école", "isCorrect": false },
+          { "text": "Supprimer la santé", "isCorrect": false },
+          { "text": "Interdire les routes", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Histoire : sources et biais (difficile)",
+    "period": "Histoire",
+    "order": 7,
+    "content": "Comment analyser une source et éviter les biais.",
+    "questions": [
+      {
+        "text": "Un biais dans une source, c’est :",
+        "answers": [
+          { "text": "Une déformation liée au point de vue", "isCorrect": true },
+          { "text": "Une preuve parfaite", "isCorrect": false },
+          { "text": "Une date obligatoire", "isCorrect": false },
+          { "text": "Un fleuve", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Une bonne méthode d’analyse consiste à :",
+        "answers": [
+          { "text": "Vérifier l’auteur, la date, le contexte, et croiser", "isCorrect": true },
+          { "text": "Croire sans preuve", "isCorrect": false },
+          { "text": "Refuser toutes les archives", "isCorrect": false },
+          { "text": "Ne lire qu’un seul avis", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Croiser des sources sert surtout à :",
+        "answers": [
+          { "text": "Confirmer ou nuancer une information", "isCorrect": true },
+          { "text": "Inventer des faits", "isCorrect": false },
+          { "text": "Supprimer l’histoire", "isCorrect": false },
+          { "text": "Éviter toute conclusion", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Une source orale est :",
+        "answers": [
+          { "text": "Utile, mais à contextualiser et comparer", "isCorrect": true },
+          { "text": "Toujours fausse", "isCorrect": false },
+          { "text": "Toujours parfaite", "isCorrect": false },
+          { "text": "Interdite en histoire", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Développement : priorités (difficile)",
+    "period": "Économie",
+    "order": 8,
+    "content": "Comprendre les leviers concrets (éducation, santé, infrastructures, gouvernance).",
+    "questions": [
+      {
+        "text": "Un levier durable de développement est :",
+        "answers": [
+          { "text": "L’investissement dans le capital humain", "isCorrect": true },
+          { "text": "La suppression des écoles", "isCorrect": false },
+          { "text": "L’arrêt des soins", "isCorrect": false },
+          { "text": "L’absence de routes", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Améliorer les routes aide surtout à :",
+        "answers": [
+          { "text": "Faciliter commerce, accès aux services et mobilité", "isCorrect": true },
+          { "text": "Empêcher les échanges", "isCorrect": false },
+          { "text": "Bloquer l’agriculture", "isCorrect": false },
+          { "text": "Supprimer les marchés", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Diversifier l’économie permet :",
+        "answers": [
+          { "text": "De réduire la dépendance à un seul secteur", "isCorrect": true },
+          { "text": "D’augmenter les risques", "isCorrect": false },
+          { "text": "De supprimer les emplois", "isCorrect": false },
+          { "text": "D’interdire les PME", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La qualité des institutions influence :",
+        "answers": [
+          { "text": "La confiance et l’efficacité des politiques publiques", "isCorrect": true },
+          { "text": "La météo uniquement", "isCorrect": false },
+          { "text": "La gravité", "isCorrect": false },
+          { "text": "Le cycle du soleil", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Culture : identité et cohésion (difficile)",
+    "period": "Culture",
+    "order": 9,
+    "content": "Comprendre comment l’identité et le respect de la diversité renforcent l’unité.",
+    "questions": [
+      {
+        "text": "Une identité nationale inclusive repose sur :",
+        "answers": [
+          { "text": "Le respect et la participation de tous", "isCorrect": true },
+          { "text": "L’exclusion", "isCorrect": false },
+          { "text": "La suppression des langues", "isCorrect": false },
+          { "text": "Le rejet de la diversité", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La cohésion sociale est facilitée par :",
+        "answers": [
+          { "text": "Le dialogue et l’équité", "isCorrect": true },
+          { "text": "La division", "isCorrect": false },
+          { "text": "La censure totale", "isCorrect": false },
+          { "text": "L’isolement", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Le patrimoine immatériel inclut :",
+        "answers": [
+          { "text": "Récits, savoir-faire, traditions", "isCorrect": true },
+          { "text": "Uniquement des bâtiments", "isCorrect": false },
+          { "text": "Uniquement des routes", "isCorrect": false },
+          { "text": "Uniquement des machines", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Préserver les langues locales sert à :",
+        "answers": [
+          { "text": "Protéger la transmission et la mémoire", "isCorrect": true },
+          { "text": "Empêcher la communication", "isCorrect": false },
+          { "text": "Supprimer l’éducation", "isCorrect": false },
+          { "text": "Effacer les traditions", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Esprit critique : info et désinfo (difficile)",
+    "period": "Citoyenneté",
+    "order": 10,
+    "content": "Reconnaître une information fiable, vérifier, comparer, éviter la désinformation.",
+    "questions": [
+      {
+        "text": "Un bon réflexe face à une info virale est :",
+        "answers": [
+          { "text": "Vérifier la source et recouper", "isCorrect": true },
+          { "text": "Partager immédiatement", "isCorrect": false },
+          { "text": "Ignorer toute preuve", "isCorrect": false },
+          { "text": "Croire sans lire", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Une source plus fiable est souvent :",
+        "answers": [
+          { "text": "Identifiée et documentée", "isCorrect": true },
+          { "text": "Anonyme sans preuve", "isCorrect": false },
+          { "text": "Basée sur une rumeur", "isCorrect": false },
+          { "text": "Sans auteur ni date", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Recouper une information signifie :",
+        "answers": [
+          { "text": "Comparer avec d’autres sources indépendantes", "isCorrect": true },
+          { "text": "Changer le texte", "isCorrect": false },
+          { "text": "Supprimer la source", "isCorrect": false },
+          { "text": "Éviter de vérifier", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Une affirmation fiable doit idéalement :",
+        "answers": [
+          { "text": "Pouvoir être vérifiée", "isCorrect": true },
+          { "text": "Être impossible à vérifier", "isCorrect": false },
+          { "text": "Ne jamais citer de preuve", "isCorrect": false },
+          { "text": "Se baser sur un seul témoignage", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+  ],
+  "badges": [
+    { "title": "Expert Guinée", "description": "Tu as terminé un pack difficile sur la Guinée.", "icon": "📕", "condition": "Finir guinee-difficile" }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "chapters": [
+    {
+      "title": "Figures politiques de la Guinée",
+      "period": "XXe–XXIe siècle",
+      "order": 1,
+      "content": "Ce chapitre présente quelques grandes figures politiques guinéennes qui ont marqué l’histoire du pays, de l’indépendance à la période contemporaine.",
+      "questions": [
+        {
+          "text": "Qui fut le premier président de la Guinée indépendante ?",
+          "answers": [
+            { "text": "Ahmed Sékou Touré", "isCorrect": true },
+            { "text": "Lansana Conté", "isCorrect": false },
+            { "text": "Alpha Condé", "isCorrect": false },
+            { "text": "Moussa Dadis Camara", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel président guinéen a dirigé le pays de 1984 à 2008 ?",
+          "answers": [
+            { "text": "Lansana Conté", "isCorrect": true },
+            { "text": "Ahmed Sékou Touré", "isCorrect": false },
+            { "text": "Alpha Condé", "isCorrect": false },
+            { "text": "Sory Touré", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel président guinéen est élu au suffrage universel en 2010 ?",
+          "answers": [
+            { "text": "Alpha Condé", "isCorrect": true },
+            { "text": "Lansana Conté", "isCorrect": false },
+            { "text": "Cellou Dalein Diallo", "isCorrect": false },
+            { "text": "Sékouba Konaté", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Qui est connu pour le célèbre slogan « Nous préférons la liberté dans la pauvreté à la richesse dans l’esclavage » ?",
+          "answers": [
+            { "text": "Ahmed Sékou Touré", "isCorrect": true },
+            { "text": "Kwame Nkrumah", "isCorrect": false },
+            { "text": "Nelson Mandela", "isCorrect": false },
+            { "text": "Thomas Sankara", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Culture et musique guinéenne",
+      "period": "XXe–XXIe siècle",
+      "order": 2,
+      "content": "La Guinée est connue pour la richesse de sa culture, de ses ballets nationaux, de ses griots et de ses artistes modernes qui portent haut la musique guinéenne.",
+      "questions": [
+        {
+          "text": "Quel instrument à cordes traditionnel est associé aux griots mandingues ?",
+          "answers": [
+            { "text": "La kora", "isCorrect": true },
+            { "text": "Le balafon", "isCorrect": false },
+            { "text": "Le djembé", "isCorrect": false },
+            { "text": "La flûte peule", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel célèbre ensemble artistique guinéen a contribué à faire connaître les danses et percussions du pays au monde entier ?",
+          "answers": [
+            { "text": "Les Ballets Africains", "isCorrect": true },
+            { "text": "Les Étoiles du Sahel", "isCorrect": false },
+            { "text": "Les Amazones d’Afrique", "isCorrect": false },
+            { "text": "Les Lions Indomptables", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le djembé est :",
+          "answers": [
+            { "text": "Un instrument de percussion", "isCorrect": true },
+            { "text": "Un instrument à cordes", "isCorrect": false },
+            { "text": "Un instrument à vent", "isCorrect": false },
+            { "text": "Un instrument électronique", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel artiste guinéen est connu pour avoir popularisé le style afro-urbain et RnB en Guinée à partir des années 2010 ?",
+          "answers": [
+            { "text": "Soul Bang’s", "isCorrect": true },
+            { "text": "Mory Kanté", "isCorrect": false },
+            { "text": "Sékouba Bambino", "isCorrect": false },
+            { "text": "Fodé Baro", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sportifs guinéens",
+      "period": "XXe–XXIe siècle",
+      "order": 3,
+      "content": "Les sportifs guinéens, notamment dans le football, ont contribué à faire connaître le pays sur la scène internationale.",
+      "questions": [
+        {
+          "text": "Comment s’appelle l’équipe nationale de football de Guinée ?",
+          "answers": [
+            { "text": "Le Syli National", "isCorrect": true },
+            { "text": "Les Aigles", "isCorrect": false },
+            { "text": "Les Lions de la Teranga", "isCorrect": false },
+            { "text": "Les Éléphants", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel joueur guinéen a longtemps évolué au Paris Saint-Germain dans les années 2000 ?",
+          "answers": [
+            { "text": "Pascal Feindouno", "isCorrect": false },
+            { "text": "Titi Camara", "isCorrect": false },
+            { "text": "Dibri Camara", "isCorrect": false },
+            { "text": "Aucun, le plus connu est Feindouno mais il a joué à Saint-Étienne", "isCorrect": true }
+          ]
+        },
+        {
+          "text": "Quel attaquant guinéen est particulièrement connu pour son passage à Liverpool à la fin des années 1990 ?",
+          "answers": [
+            { "text": "Titi Camara", "isCorrect": true },
+            { "text": "Naby Keïta", "isCorrect": false },
+            { "text": "Ibrahima Traoré", "isCorrect": false },
+            { "text": "Kévin Constant", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Naby Keïta, international guinéen, a notamment joué dans quel grand club anglais ?",
+          "answers": [
+            { "text": "Liverpool FC", "isCorrect": true },
+            { "text": "Chelsea FC", "isCorrect": false },
+            { "text": "Arsenal", "isCorrect": false },
+            { "text": "Manchester City", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Patriote guinéen",
+      "description": "Tu connais les grandes figures politiques de la Guinée.",
+      "icon": "🇬🇳",
+      "condition": "Quiz héros politiques guinéens complété"
+    },
+    {
+      "title": "Ambassadeur de la culture",
+      "description": "Tu maîtrises les bases de la culture et de la musique guinéenne.",
+      "icon": "🎶",
+      "condition": "Quiz culture guinéenne complété"
+    }
+  ]
+}

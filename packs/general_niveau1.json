@@ -1,0 +1,118 @@
+{
+  "chapters": [
+    {
+      "title": "Histoire générale de l’Afrique",
+      "period": "Antiquité–XXe siècle",
+      "order": 1,
+      "content": "Un survol de quelques événements marquants de l’histoire du continent africain.",
+      "questions": [
+        {
+          "text": "Quel fleuve est souvent considéré comme le plus long d’Afrique ?",
+          "answers": [
+            { "text": "Le Nil", "isCorrect": true },
+            { "text": "Le Niger", "isCorrect": false },
+            { "text": "Le Congo", "isCorrect": false },
+            { "text": "Le Limpopo", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays est célèbre pour son ancien royaume d’Aksoum et ses églises taillées dans la roche à Lalibela ?",
+          "answers": [
+            { "text": "Éthiopie", "isCorrect": true },
+            { "text": "Kenya", "isCorrect": false },
+            { "text": "Maroc", "isCorrect": false },
+            { "text": "Gabon", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel océan borde la côte est de l’Afrique ?",
+          "answers": [
+            { "text": "L’océan Indien", "isCorrect": true },
+            { "text": "L’océan Atlantique", "isCorrect": false },
+            { "text": "L’océan Pacifique", "isCorrect": false },
+            { "text": "La mer du Nord", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La traite négrière atlantique a principalement relié :",
+          "answers": [
+            { "text": "L’Afrique, l’Europe et les Amériques", "isCorrect": true },
+            { "text": "L’Asie centrale et l’Arctique", "isCorrect": false },
+            { "text": "L’Australie et l’Antarctique", "isCorrect": false },
+            { "text": "L’Europe de l’Est et la Chine", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays fut longtemps dirigé par Nelson Mandela après la fin de l’apartheid ?",
+          "answers": [
+            { "text": "L’Afrique du Sud", "isCorrect": true },
+            { "text": "Le Botswana", "isCorrect": false },
+            { "text": "La Namibie", "isCorrect": false },
+            { "text": "Le Lesotho", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quiz rapide – Géographie africaine",
+      "period": "Contemporain",
+      "order": 2,
+      "content": "Quelques questions de base sur la géographie politique et physique du continent africain.",
+      "questions": [
+        {
+          "text": "Combien de pays environ compte l’Afrique (États reconnus par l’ONU) ?",
+          "answers": [
+            { "text": "54", "isCorrect": true },
+            { "text": "24", "isCorrect": false },
+            { "text": "75", "isCorrect": false },
+            { "text": "100", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel désert couvre une grande partie de l’Afrique du Nord ?",
+          "answers": [
+            { "text": "Le Sahara", "isCorrect": true },
+            { "text": "Le Kalahari", "isCorrect": false },
+            { "text": "Le Gobi", "isCorrect": false },
+            { "text": "Le Mojave", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays africain est une île située dans l’océan Indien, au large de la côte sud-est ?",
+          "answers": [
+            { "text": "Madagascar", "isCorrect": true },
+            { "text": "Cap-Vert", "isCorrect": false },
+            { "text": "Seychelles", "isCorrect": false },
+            { "text": "Mauritanie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La ville de Lagos se trouve dans :",
+          "answers": [
+            { "text": "Le Nigeria", "isCorrect": true },
+            { "text": "La Guinée", "isCorrect": false },
+            { "text": "Le Togo", "isCorrect": false },
+            { "text": "L’Angola", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le mont Kilimandjaro se situe principalement dans :",
+          "answers": [
+            { "text": "La Tanzanie", "isCorrect": true },
+            { "text": "Le Cameroun", "isCorrect": false },
+            { "text": "Le Maroc", "isCorrect": false },
+            { "text": "La Zambie", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Explorateur du continent",
+      "description": "Tu as validé un quiz général d’introduction à l’Afrique.",
+      "icon": "🧭",
+      "condition": "Quiz général Afrique niveau 1 complété"
+    }
+  ]
+}

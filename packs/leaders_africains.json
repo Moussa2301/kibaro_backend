@@ -1,0 +1,100 @@
+{
+  "chapters": [
+    {
+      "title": "Pères des indépendances africaines",
+      "period": "XXe siècle",
+      "order": 1,
+      "content": "De nombreux leaders ont porté les luttes de libération en Afrique : Nkrumah, Lumumba, Mandela, Sankara, etc. Ce chapitre présente quelques figures majeures.",
+      "questions": [
+        {
+          "text": "Kwame Nkrumah a été le premier président de quel pays africain ?",
+          "answers": [
+            { "text": "Ghana", "isCorrect": true },
+            { "text": "Guinée", "isCorrect": false },
+            { "text": "Nigeria", "isCorrect": false },
+            { "text": "Kenya", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Patrice Lumumba est une figure importante de :",
+          "answers": [
+            { "text": "La République démocratique du Congo", "isCorrect": true },
+            { "text": "L’Afrique du Sud", "isCorrect": false },
+            { "text": "L’Algérie", "isCorrect": false },
+            { "text": "La Tanzanie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Nelson Mandela a passé de nombreuses années en prison pour sa lutte contre :",
+          "answers": [
+            { "text": "L’apartheid", "isCorrect": true },
+            { "text": "Le socialisme", "isCorrect": false },
+            { "text": "Le panafricanisme", "isCorrect": false },
+            { "text": "Le colonialisme français", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Thomas Sankara a dirigé quel pays sous le nom de « Burkina Faso » ?",
+          "answers": [
+            { "text": "Burkina Faso", "isCorrect": true },
+            { "text": "Niger", "isCorrect": false },
+            { "text": "Mali", "isCorrect": false },
+            { "text": "Tchad", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Leadership et panafricanisme aujourd’hui",
+      "period": "XXIe siècle",
+      "order": 2,
+      "content": "Les idées panafricanistes continuent d’inspirer les jeunes générations, les entrepreneurs et les mouvements citoyens modernes.",
+      "questions": [
+        {
+          "text": "Le terme « panafricanisme » désigne :",
+          "answers": [
+            { "text": "Une vision d’unité, de solidarité et de coopération entre les peuples africains", "isCorrect": true },
+            { "text": "Une monnaie unique européenne", "isCorrect": false },
+            { "text": "Une ligue de football", "isCorrect": false },
+            { "text": "Une forme de gouvernement militaire", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel domaine n’est PAS directement lié à l’émergence de jeunes leaders africains ?",
+          "answers": [
+            { "text": "La lutte contre le changement climatique", "isCorrect": false },
+            { "text": "L’innovation numérique", "isCorrect": false },
+            { "text": "L’engagement citoyen", "isCorrect": false },
+            { "text": "La conquête spatiale européenne au Moyen Âge", "isCorrect": true }
+          ]
+        },
+        {
+          "text": "Les jeunes leaders africains d’aujourd’hui agissent souvent à travers :",
+          "answers": [
+            { "text": "Des associations, start-up, ONG et mouvements citoyens", "isCorrect": true },
+            { "text": "Uniquement des partis uniques", "isCorrect": false },
+            { "text": "Uniquement l’armée", "isCorrect": false },
+            { "text": "Uniquement l’administration coloniale", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les réseaux sociaux jouent pour les jeunes africains un rôle :",
+          "answers": [
+            { "text": "De mobilisation, de sensibilisation et de communication rapide", "isCorrect": true },
+            { "text": "De remplacement officiel des parlements", "isCorrect": false },
+            { "text": "D’interdiction d’expression", "isCorrect": false },
+            { "text": "D’outil uniquement réservé aux gouvernements", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Jeune leader",
+      "description": "Tu connais les grandes figures des indépendances africaines.",
+      "icon": "🔥",
+      "condition": "Quiz leaders africains complété"
+    }
+  ]
+}

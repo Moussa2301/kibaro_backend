@@ -1,0 +1,458 @@
+{
+  "chapters": [
+    {
+      "title": "Les régions naturelles de la Guinée",
+      "period": "Général",
+      "order": 1,
+      "content": "La Guinée est composée de quatre grandes régions naturelles : Basse-Guinée, Moyenne-Guinée, Haute-Guinée et Guinée Forestière.",
+      "questions": [
+        {
+          "text": "Combien de régions naturelles compte la Guinée ?",
+          "answers": [
+            { "text": "4", "isCorrect": true },
+            { "text": "3", "isCorrect": false },
+            { "text": "5", "isCorrect": false },
+            { "text": "8", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle région est surtout connue pour le massif du Fouta-Djalon ?",
+          "answers": [
+            { "text": "La Moyenne-Guinée", "isCorrect": true },
+            { "text": "La Basse-Guinée", "isCorrect": false },
+            { "text": "La Haute-Guinée", "isCorrect": false },
+            { "text": "La Guinée Forestière", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle région est souvent associée aux forêts denses et à une forte biodiversité ?",
+          "answers": [
+            { "text": "La Guinée Forestière", "isCorrect": true },
+            { "text": "La Haute-Guinée", "isCorrect": false },
+            { "text": "La Basse-Guinée", "isCorrect": false },
+            { "text": "La Moyenne-Guinée", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Conakry se situe principalement en :",
+          "answers": [
+            { "text": "Basse-Guinée", "isCorrect": true },
+            { "text": "Haute-Guinée", "isCorrect": false },
+            { "text": "Moyenne-Guinée", "isCorrect": false },
+            { "text": "Guinée Forestière", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Conakry : la capitale",
+      "period": "Général",
+      "order": 2,
+      "content": "Conakry est la capitale et la plus grande ville de Guinée. Elle joue un rôle central dans l’économie et la vie politique du pays.",
+      "questions": [
+        {
+          "text": "Quelle est la capitale de la Guinée ?",
+          "answers": [
+            { "text": "Conakry", "isCorrect": true },
+            { "text": "Labé", "isCorrect": false },
+            { "text": "Kankan", "isCorrect": false },
+            { "text": "N’Zérékoré", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Conakry est surtout connue comme :",
+          "answers": [
+            { "text": "Un centre politique et économique", "isCorrect": true },
+            { "text": "Une ville minière isolée", "isCorrect": false },
+            { "text": "Une capitale d’Afrique du Nord", "isCorrect": false },
+            { "text": "Une ville sans accès maritime", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Conakry se situe sur :",
+          "answers": [
+            { "text": "La côte Atlantique", "isCorrect": true },
+            { "text": "Le désert", "isCorrect": false },
+            { "text": "Une île au large de l’océan Indien", "isCorrect": false },
+            { "text": "Les hauts plateaux du Sahel", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Conakry appartient à quelle région naturelle ?",
+          "answers": [
+            { "text": "Basse-Guinée", "isCorrect": true },
+            { "text": "Moyenne-Guinée", "isCorrect": false },
+            { "text": "Haute-Guinée", "isCorrect": false },
+            { "text": "Guinée Forestière", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "L’indépendance de la Guinée",
+      "period": "1958",
+      "order": 3,
+      "content": "En 1958, la Guinée choisit l’indépendance en votant « NON » au référendum. Cet acte marque une date majeure de l’histoire nationale.",
+      "questions": [
+        {
+          "text": "En quelle année la Guinée a-t-elle obtenu son indépendance ?",
+          "answers": [
+            { "text": "1958", "isCorrect": true },
+            { "text": "1960", "isCorrect": false },
+            { "text": "1945", "isCorrect": false },
+            { "text": "1975", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle date est associée à l’indépendance de la Guinée ?",
+          "answers": [
+            { "text": "2 octobre 1958", "isCorrect": true },
+            { "text": "1er janvier 1959", "isCorrect": false },
+            { "text": "25 décembre 1958", "isCorrect": false },
+            { "text": "14 juillet 1958", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le « NON » de 1958 était lié à :",
+          "answers": [
+            { "text": "Un référendum proposé par la France", "isCorrect": true },
+            { "text": "Une coupe de football", "isCorrect": false },
+            { "text": "Un traité entre pays du Sahel", "isCorrect": false },
+            { "text": "Une élection municipale", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "L’indépendance signifie principalement :",
+          "answers": [
+            { "text": "L’autonomie politique d’un pays", "isCorrect": true },
+            { "text": "La fin de toutes les lois", "isCorrect": false },
+            { "text": "L’interdiction des frontières", "isCorrect": false },
+            { "text": "La disparition de l’État", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Le Fouta-Djalon",
+      "period": "Histoire & culture",
+      "order": 4,
+      "content": "Le Fouta-Djalon est une région de montagnes, de sources et de traditions fortes. Elle est aussi un espace historique important.",
+      "questions": [
+        {
+          "text": "Le Fouta-Djalon est particulièrement connu pour :",
+          "answers": [
+            { "text": "Ses montagnes et ses sources", "isCorrect": true },
+            { "text": "Ses dunes de sable", "isCorrect": false },
+            { "text": "Ses glaciers", "isCorrect": false },
+            { "text": "Ses fjords", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le Fouta-Djalon appartient surtout à quelle région naturelle ?",
+          "answers": [
+            { "text": "La Moyenne-Guinée", "isCorrect": true },
+            { "text": "La Basse-Guinée", "isCorrect": false },
+            { "text": "La Haute-Guinée", "isCorrect": false },
+            { "text": "La Guinée Forestière", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le climat du Fouta-Djalon est souvent :",
+          "answers": [
+            { "text": "Plus frais que sur la côte", "isCorrect": true },
+            { "text": "Toujours désertique", "isCorrect": false },
+            { "text": "Toujours polaire", "isCorrect": false },
+            { "text": "Sans saison des pluies", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le Fouta-Djalon est parfois appelé :",
+          "answers": [
+            { "text": "Le château d’eau de l’Afrique de l’Ouest", "isCorrect": true },
+            { "text": "La mer intérieure d’Afrique", "isCorrect": false },
+            { "text": "Le toit de l’Europe", "isCorrect": false },
+            { "text": "La vallée du Nil", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "La Haute-Guinée",
+      "period": "Géographie",
+      "order": 5,
+      "content": "La Haute-Guinée est une vaste zone intérieure, avec de grandes villes et une activité agricole et commerciale importante.",
+      "questions": [
+        {
+          "text": "Quelle ville est souvent associée à la Haute-Guinée ?",
+          "answers": [
+            { "text": "Kankan", "isCorrect": true },
+            { "text": "Boké", "isCorrect": false },
+            { "text": "Coyah", "isCorrect": false },
+            { "text": "Dubréka", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Haute-Guinée se situe plutôt :",
+          "answers": [
+            { "text": "À l’intérieur du pays", "isCorrect": true },
+            { "text": "Sur une île", "isCorrect": false },
+            { "text": "Uniquement sur la côte", "isCorrect": false },
+            { "text": "Au pôle Nord", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Haute-Guinée est généralement associée à :",
+          "answers": [
+            { "text": "Des plaines et plateaux", "isCorrect": true },
+            { "text": "De hautes falaises maritimes", "isCorrect": false },
+            { "text": "Des glaciers", "isCorrect": false },
+            { "text": "Des fjords", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Kankan est :",
+          "answers": [
+            { "text": "Une grande ville de l’intérieur", "isCorrect": true },
+            { "text": "Un quartier de Conakry", "isCorrect": false },
+            { "text": "Une île", "isCorrect": false },
+            { "text": "Un désert", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "La Guinée Forestière",
+      "period": "Géographie & culture",
+      "order": 6,
+      "content": "La Guinée Forestière se distingue par ses forêts, sa biodiversité et des villes importantes comme N’Zérékoré.",
+      "questions": [
+        {
+          "text": "Quelle ville est une grande référence de la Guinée Forestière ?",
+          "answers": [
+            { "text": "N’Zérékoré", "isCorrect": true },
+            { "text": "Boké", "isCorrect": false },
+            { "text": "Labé", "isCorrect": false },
+            { "text": "Kindia", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Guinée Forestière est surtout connue pour :",
+          "answers": [
+            { "text": "Sa couverture forestière", "isCorrect": true },
+            { "text": "Ses déserts", "isCorrect": false },
+            { "text": "Ses glaciers", "isCorrect": false },
+            { "text": "Ses volcans actifs", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "N’Zérékoré se situe plutôt :",
+          "answers": [
+            { "text": "Au sud du pays", "isCorrect": true },
+            { "text": "Au nord de la côte", "isCorrect": false },
+            { "text": "Sur une île", "isCorrect": false },
+            { "text": "Au centre de l’océan", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Guinée Forestière fait partie des :",
+          "answers": [
+            { "text": "Quatre régions naturelles", "isCorrect": true },
+            { "text": "Deux régions naturelles", "isCorrect": false },
+            { "text": "Dix régions naturelles", "isCorrect": false },
+            { "text": "Aucune région naturelle", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Économie : mines et bauxite",
+      "period": "Économie",
+      "order": 7,
+      "content": "La Guinée est connue pour ses ressources naturelles. Les activités minières occupent une place importante dans l’économie.",
+      "questions": [
+        {
+          "text": "La Guinée est souvent citée pour ses ressources en :",
+          "answers": [
+            { "text": "Bauxite", "isCorrect": true },
+            { "text": "Charbon arctique", "isCorrect": false },
+            { "text": "Glace polaire", "isCorrect": false },
+            { "text": "Gaz de la mer du Nord", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les mines sont liées principalement à :",
+          "answers": [
+            { "text": "L’extraction de ressources naturelles", "isCorrect": true },
+            { "text": "La fabrication de pains", "isCorrect": false },
+            { "text": "La construction de bateaux", "isCorrect": false },
+            { "text": "La pêche en haute mer", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La bauxite sert notamment à produire :",
+          "answers": [
+            { "text": "L’aluminium", "isCorrect": true },
+            { "text": "Le coton", "isCorrect": false },
+            { "text": "Le café", "isCorrect": false },
+            { "text": "Le riz", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un enjeu important des ressources minières est :",
+          "answers": [
+            { "text": "La gestion durable et les retombées locales", "isCorrect": true },
+            { "text": "Le gel permanent des rivières", "isCorrect": false },
+            { "text": "L’absence totale de routes", "isCorrect": false },
+            { "text": "La suppression des écoles", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Symboles nationaux de la Guinée",
+      "period": "Citoyenneté",
+      "order": 8,
+      "content": "Les symboles nationaux (drapeau, devise, etc.) représentent l’identité et l’unité du pays.",
+      "questions": [
+        {
+          "text": "Le drapeau guinéen comporte quelles couleurs ?",
+          "answers": [
+            { "text": "Rouge, jaune, vert", "isCorrect": true },
+            { "text": "Bleu, blanc, rouge", "isCorrect": false },
+            { "text": "Noir, jaune, rouge", "isCorrect": false },
+            { "text": "Vert, blanc, noir", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les symboles nationaux servent surtout à :",
+          "answers": [
+            { "text": "Représenter l’identité du pays", "isCorrect": true },
+            { "text": "Remplacer toutes les lois", "isCorrect": false },
+            { "text": "Interdire la culture", "isCorrect": false },
+            { "text": "Supprimer l’éducation", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le drapeau est généralement utilisé :",
+          "answers": [
+            { "text": "Lors des cérémonies officielles", "isCorrect": true },
+            { "text": "Uniquement dans les écoles", "isCorrect": false },
+            { "text": "Uniquement dans les stades", "isCorrect": false },
+            { "text": "Jamais", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les couleurs d’un drapeau sont souvent liées à :",
+          "answers": [
+            { "text": "Des valeurs et une histoire", "isCorrect": true },
+            { "text": "Uniquement au hasard", "isCorrect": false },
+            { "text": "Des règles sportives", "isCorrect": false },
+            { "text": "Des saisons de neige", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Institutions et citoyenneté en Guinée",
+      "period": "Citoyenneté",
+      "order": 9,
+      "content": "La citoyenneté implique des droits et des devoirs. Les institutions permettent d’organiser la vie publique.",
+      "questions": [
+        {
+          "text": "Une constitution sert principalement à :",
+          "answers": [
+            { "text": "Définir les règles fondamentales d’un État", "isCorrect": true },
+            { "text": "Supprimer toutes les lois", "isCorrect": false },
+            { "text": "Interdire les élections", "isCorrect": false },
+            { "text": "Gérer uniquement la météo", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Être citoyen, c’est notamment :",
+          "answers": [
+            { "text": "Avoir des droits et des devoirs", "isCorrect": true },
+            { "text": "Ne jamais respecter aucune règle", "isCorrect": false },
+            { "text": "Ne jamais voter", "isCorrect": false },
+            { "text": "Ne jamais apprendre", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une élection sert à :",
+          "answers": [
+            { "text": "Choisir des représentants", "isCorrect": true },
+            { "text": "Annuler la constitution", "isCorrect": false },
+            { "text": "Supprimer l’école", "isCorrect": false },
+            { "text": "Interdire la justice", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le rôle de la justice est de :",
+          "answers": [
+            { "text": "Faire appliquer le droit", "isCorrect": true },
+            { "text": "Décider des résultats sportifs", "isCorrect": false },
+            { "text": "Gérer les transports publics", "isCorrect": false },
+            { "text": "Imprimer la monnaie mondiale", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Culture et diversité en Guinée",
+      "period": "Culture",
+      "order": 10,
+      "content": "La Guinée est un pays riche en cultures, langues, traditions et expressions artistiques. Ce chapitre teste des repères généraux.",
+      "questions": [
+        {
+          "text": "La diversité culturelle d’un pays signifie :",
+          "answers": [
+            { "text": "La coexistence de plusieurs traditions et identités", "isCorrect": true },
+            { "text": "L’absence de culture", "isCorrect": false },
+            { "text": "Une seule langue obligatoire", "isCorrect": false },
+            { "text": "La suppression des fêtes", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les traditions incluent souvent :",
+          "answers": [
+            { "text": "Des fêtes, des récits et des pratiques sociales", "isCorrect": true },
+            { "text": "Uniquement des lois pénales", "isCorrect": false },
+            { "text": "Uniquement des documents administratifs", "isCorrect": false },
+            { "text": "Uniquement des matchs sportifs", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La culture peut s’exprimer par :",
+          "answers": [
+            { "text": "La musique, la danse et les arts", "isCorrect": true },
+            { "text": "Seulement la météo", "isCorrect": false },
+            { "text": "Uniquement des calculs", "isCorrect": false },
+            { "text": "Uniquement des machines", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Pourquoi valoriser la diversité culturelle ?",
+          "answers": [
+            { "text": "Pour renforcer l’unité dans le respect des différences", "isCorrect": true },
+            { "text": "Pour interdire les échanges", "isCorrect": false },
+            { "text": "Pour supprimer les langues", "isCorrect": false },
+            { "text": "Pour empêcher l’éducation", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "100% Guinée",
+      "description": "Tu as joué un pack entièrement consacré à la Guinée.",
+      "icon": "🇬🇳",
+      "condition": "Jouer le pack 100% Guinée"
+    },
+    {
+      "title": "Connaisseur de la Guinée",
+      "description": "Tu progresses sur les chapitres guinéens : géographie, histoire, culture et citoyenneté.",
+      "icon": "📘",
+      "condition": "Terminer plusieurs chapitres de Guinée"
+    }
+  ]
+}

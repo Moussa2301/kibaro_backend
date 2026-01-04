@@ -1,0 +1,447 @@
+{
+  "chapters": [
+    {
+      "title": "Villes et régions (niveau moyen)",
+      "period": "Géographie",
+      "order": 1,
+      "content": "Associer des villes à des régions naturelles et comprendre des repères.",
+      "questions": [
+        {
+          "text": "Quelle ville est souvent associée à la Guinée Forestière ?",
+          "answers": [
+            { "text": "N’Zérékoré", "isCorrect": true },
+            { "text": "Boké", "isCorrect": false },
+            { "text": "Kankan", "isCorrect": false },
+            { "text": "Dubréka", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le Fouta-Djalon est surtout connu comme :",
+          "answers": [
+            { "text": "Une zone de montagnes et de sources", "isCorrect": true },
+            { "text": "Un désert côtier", "isCorrect": false },
+            { "text": "Une île volcanique", "isCorrect": false },
+            { "text": "Une plaine glacée", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Basse-Guinée est souvent associée à :",
+          "answers": [
+            { "text": "La façade maritime", "isCorrect": true },
+            { "text": "Le massif montagneux principal", "isCorrect": false },
+            { "text": "La forêt dense intérieure uniquement", "isCorrect": false },
+            { "text": "Le désert", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La Haute-Guinée est plutôt :",
+          "answers": [
+            { "text": "Une vaste zone intérieure", "isCorrect": true },
+            { "text": "Une île", "isCorrect": false },
+            { "text": "Une région polaire", "isCorrect": false },
+            { "text": "Un archipel", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "État et citoyenneté (moyen)",
+      "period": "Citoyenneté",
+      "order": 2,
+      "content": "Rôle des institutions et notions de base sur la citoyenneté.",
+      "questions": [
+        {
+          "text": "Une constitution sert principalement à :",
+          "answers": [
+            { "text": "Fixer les règles fondamentales de l’État", "isCorrect": true },
+            { "text": "Remplacer toutes les écoles", "isCorrect": false },
+            { "text": "Décider des résultats sportifs", "isCorrect": false },
+            { "text": "Supprimer les lois", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Voter, c’est :",
+          "answers": [
+            { "text": "Participer au choix des représentants", "isCorrect": true },
+            { "text": "Interdire les élections", "isCorrect": false },
+            { "text": "Annuler la citoyenneté", "isCorrect": false },
+            { "text": "Supprimer la justice", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Être citoyen implique généralement :",
+          "answers": [
+            { "text": "Des droits et des devoirs", "isCorrect": true },
+            { "text": "Aucune règle à respecter", "isCorrect": false },
+            { "text": "Ne jamais apprendre", "isCorrect": false },
+            { "text": "Ne jamais travailler", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La justice sert à :",
+          "answers": [
+            { "text": "Appliquer le droit", "isCorrect": true },
+            { "text": "Remplacer l’école", "isCorrect": false },
+            { "text": "Gérer la météo", "isCorrect": false },
+            { "text": "Créer des routes", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Histoire : repères (moyen)",
+      "period": "Histoire",
+      "order": 3,
+      "content": "Repères plus “contexte” autour de l’histoire et de la mémoire collective.",
+      "questions": [
+        {
+          "text": "L’indépendance de 1958 est liée à :",
+          "answers": [
+            { "text": "Une décision politique historique", "isCorrect": true },
+            { "text": "Un match de football", "isCorrect": false },
+            { "text": "Une découverte pétrolière", "isCorrect": false },
+            { "text": "Une éruption volcanique", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "L’indépendance signifie :",
+          "answers": [
+            { "text": "Souveraineté et autonomie de décision", "isCorrect": true },
+            { "text": "Absence de lois", "isCorrect": false },
+            { "text": "Fin de l’État", "isCorrect": false },
+            { "text": "Interdiction de la culture", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une “mémoire nationale” sert à :",
+          "answers": [
+            { "text": "Transmettre l’histoire et les repères communs", "isCorrect": true },
+            { "text": "Effacer le passé", "isCorrect": false },
+            { "text": "Interdire les traditions", "isCorrect": false },
+            { "text": "Supprimer les archives", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un repère historique est :",
+          "answers": [
+            { "text": "Une date ou un événement marquant", "isCorrect": true },
+            { "text": "Une publicité", "isCorrect": false },
+            { "text": "Un code secret", "isCorrect": false },
+            { "text": "Un virus", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ressources et développement (moyen)",
+      "period": "Économie",
+      "order": 4,
+      "content": "Lien entre ressources, économie et développement.",
+      "questions": [
+        {
+          "text": "La bauxite est surtout utilisée pour :",
+          "answers": [
+            { "text": "Produire de l’aluminium", "isCorrect": true },
+            { "text": "Produire du riz", "isCorrect": false },
+            { "text": "Produire du cacao", "isCorrect": false },
+            { "text": "Produire du coton", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une ressource naturelle doit idéalement être exploitée avec :",
+          "answers": [
+            { "text": "Des règles et des retombées locales", "isCorrect": true },
+            { "text": "Zéro contrôle", "isCorrect": false },
+            { "text": "Interdiction de formation", "isCorrect": false },
+            { "text": "Aucune route", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Le développement local peut être soutenu par :",
+          "answers": [
+            { "text": "Infrastructures et services", "isCorrect": true },
+            { "text": "Suppression des écoles", "isCorrect": false },
+            { "text": "Fermeture des marchés", "isCorrect": false },
+            { "text": "Interdiction de la santé", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Un secteur important pour un pays est souvent :",
+          "answers": [
+            { "text": "L’éducation", "isCorrect": true },
+            { "text": "La disparition des routes", "isCorrect": false },
+            { "text": "Le silence administratif", "isCorrect": false },
+            { "text": "L’absence d’hôpitaux", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Patrimoine et identité (moyen)",
+      "period": "Culture",
+      "order": 5,
+      "content": "Comprendre l’idée de patrimoine culturel et son importance.",
+      "questions": [
+        {
+          "text": "Le patrimoine culturel peut être :",
+          "answers": [
+            { "text": "Matériel et immatériel", "isCorrect": true },
+            { "text": "Uniquement informatique", "isCorrect": false },
+            { "text": "Uniquement sportif", "isCorrect": false },
+            { "text": "Uniquement médical", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Préserver le patrimoine sert surtout à :",
+          "answers": [
+            { "text": "Transmettre aux générations futures", "isCorrect": true },
+            { "text": "Effacer les traditions", "isCorrect": false },
+            { "text": "Interdire la culture", "isCorrect": false },
+            { "text": "Supprimer l’histoire", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Une langue est un élément :",
+          "answers": [
+            { "text": "D’identité et de transmission", "isCorrect": true },
+            { "text": "De météo", "isCorrect": false },
+            { "text": "De mécanique", "isCorrect": false },
+            { "text": "De chimie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La cohésion nationale peut être renforcée par :",
+          "answers": [
+            { "text": "Le respect de la diversité", "isCorrect": true },
+            { "text": "L’interdiction des échanges", "isCorrect": false },
+            { "text": "La suppression des écoles", "isCorrect": false },
+            { "text": "La fermeture des routes", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+    "title": "Régions administratives et villes (moyen)",
+    "period": "Géographie",
+    "order": 6,
+    "content": "Repères plus précis sur l’organisation du territoire et les grandes villes.",
+    "questions": [
+      {
+        "text": "Une “préfecture” est surtout :",
+        "answers": [
+          { "text": "Une division administrative", "isCorrect": true },
+          { "text": "Un fleuve", "isCorrect": false },
+          { "text": "Un plat", "isCorrect": false },
+          { "text": "Une monnaie", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Une “commune” est généralement :",
+        "answers": [
+          { "text": "Une organisation locale", "isCorrect": true },
+          { "text": "Un animal", "isCorrect": false },
+          { "text": "Une montagne", "isCorrect": false },
+          { "text": "Un océan", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "L’objectif d’une organisation territoriale est :",
+        "answers": [
+          { "text": "Mieux gérer les services et l’administration", "isCorrect": true },
+          { "text": "Supprimer la citoyenneté", "isCorrect": false },
+          { "text": "Empêcher les écoles", "isCorrect": false },
+          { "text": "Annuler les routes", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Les grandes villes jouent souvent un rôle :",
+        "answers": [
+          { "text": "Économique et administratif", "isCorrect": true },
+          { "text": "Uniquement polaire", "isCorrect": false },
+          { "text": "Uniquement maritime", "isCorrect": false },
+          { "text": "Sans aucun impact", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Patrimoine historique guinéen (moyen)",
+    "period": "Histoire",
+    "order": 7,
+    "content": "Repères sur l’importance des sites, de la mémoire et des figures historiques.",
+    "questions": [
+      {
+        "text": "Préserver un patrimoine, c’est :",
+        "answers": [
+          { "text": "Protéger une richesse culturelle et historique", "isCorrect": true },
+          { "text": "Effacer les archives", "isCorrect": false },
+          { "text": "Supprimer les traditions", "isCorrect": false },
+          { "text": "Interdire les musées", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Les archives servent surtout à :",
+        "answers": [
+          { "text": "Conserver des documents et preuves", "isCorrect": true },
+          { "text": "Créer de la météo", "isCorrect": false },
+          { "text": "Construire des routes", "isCorrect": false },
+          { "text": "Remplacer l’école", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Une figure historique est importante car :",
+        "answers": [
+          { "text": "Elle aide à comprendre le passé et les choix", "isCorrect": true },
+          { "text": "Elle remplace les lois", "isCorrect": false },
+          { "text": "Elle supprime l’histoire", "isCorrect": false },
+          { "text": "Elle empêche la culture", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "L’histoire se construit mieux quand on :",
+        "answers": [
+          { "text": "Compare plusieurs sources", "isCorrect": true },
+          { "text": "Suit une seule rumeur", "isCorrect": false },
+          { "text": "Évite toute preuve", "isCorrect": false },
+          { "text": "Refuse les documents", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Économie locale (moyen)",
+    "period": "Économie",
+    "order": 8,
+    "content": "Notions sur marchés, agriculture, emplois et services.",
+    "questions": [
+      {
+        "text": "Un marché local sert principalement à :",
+        "answers": [
+          { "text": "Échanger et vendre des produits", "isCorrect": true },
+          { "text": "Interdire le commerce", "isCorrect": false },
+          { "text": "Supprimer les prix", "isCorrect": false },
+          { "text": "Fermer toutes les routes", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "L’agriculture est importante car :",
+        "answers": [
+          { "text": "Elle nourrit et crée des emplois", "isCorrect": true },
+          { "text": "Elle empêche toute production", "isCorrect": false },
+          { "text": "Elle supprime l’éducation", "isCorrect": false },
+          { "text": "Elle annule la santé", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Créer des emplois aide surtout à :",
+        "answers": [
+          { "text": "Améliorer les conditions de vie", "isCorrect": true },
+          { "text": "Diminuer toute activité", "isCorrect": false },
+          { "text": "Interdire les services", "isCorrect": false },
+          { "text": "Supprimer les revenus", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un service public utile peut être :",
+        "answers": [
+          { "text": "Santé et éducation", "isCorrect": true },
+          { "text": "Interdiction des soins", "isCorrect": false },
+          { "text": "Suppression des écoles", "isCorrect": false },
+          { "text": "Fermeture des hôpitaux", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Citoyenneté et règles communes (moyen)",
+    "period": "Citoyenneté",
+    "order": 9,
+    "content": "Pourquoi les règles et le respect des droits/devoirs sont essentiels.",
+    "questions": [
+      {
+        "text": "Un devoir citoyen peut être :",
+        "answers": [
+          { "text": "Respecter les lois", "isCorrect": true },
+          { "text": "Interdire le dialogue", "isCorrect": false },
+          { "text": "Supprimer les droits", "isCorrect": false },
+          { "text": "Refuser toute règle", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un droit fondamental est :",
+        "answers": [
+          { "text": "Un droit essentiel à la dignité", "isCorrect": true },
+          { "text": "Une punition", "isCorrect": false },
+          { "text": "Une rumeur", "isCorrect": false },
+          { "text": "Un objet", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Le dialogue social sert à :",
+        "answers": [
+          { "text": "Résoudre des désaccords pacifiquement", "isCorrect": true },
+          { "text": "Créer des conflits", "isCorrect": false },
+          { "text": "Supprimer la discussion", "isCorrect": false },
+          { "text": "Annuler la loi", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La cohésion nationale peut grandir avec :",
+        "answers": [
+          { "text": "Le respect de la diversité", "isCorrect": true },
+          { "text": "L’exclusion", "isCorrect": false },
+          { "text": "La division", "isCorrect": false },
+          { "text": "Le silence forcé", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Culture : arts et transmission (moyen)",
+    "period": "Culture",
+    "order": 10,
+    "content": "Comprendre le rôle des arts (musique, danse, récit) dans la transmission culturelle.",
+    "questions": [
+      {
+        "text": "Les arts aident surtout à :",
+        "answers": [
+          { "text": "Transmettre des valeurs et des histoires", "isCorrect": true },
+          { "text": "Effacer la mémoire", "isCorrect": false },
+          { "text": "Interdire les traditions", "isCorrect": false },
+          { "text": "Supprimer les langues", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "La musique traditionnelle peut servir à :",
+        "answers": [
+          { "text": "Célébrer et raconter", "isCorrect": true },
+          { "text": "Bloquer les routes", "isCorrect": false },
+          { "text": "Supprimer les fêtes", "isCorrect": false },
+          { "text": "Interdire les échanges", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Un récit transmis oralement est :",
+        "answers": [
+          { "text": "Une forme de mémoire", "isCorrect": true },
+          { "text": "Une machine", "isCorrect": false },
+          { "text": "Une météo", "isCorrect": false },
+          { "text": "Un virus", "isCorrect": false }
+        ]
+      },
+      {
+        "text": "Préserver la culture aide à :",
+        "answers": [
+          { "text": "Renforcer l’identité", "isCorrect": true },
+          { "text": "Détruire les traditions", "isCorrect": false },
+          { "text": "Supprimer l’histoire", "isCorrect": false },
+          { "text": "Annuler les langues", "isCorrect": false }
+        ]
+      }
+    ]
+     }
+  ],
+  "badges": [
+    { "title": "Intermédiaire Guinée", "description": "Tu as terminé un pack moyen sur la Guinée.", "icon": "📗", "condition": "Finir guinee-moyen" }
+  ]
+}

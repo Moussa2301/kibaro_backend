@@ -1,0 +1,150 @@
+{
+  "chapters": [
+    {
+      "title": "Capitales de l'Afrique de l'Ouest",
+      "period": "XXe–XXIe siècle",
+      "order": 1,
+      "content": "Ce chapitre porte sur les capitales politiques des principaux pays d'Afrique de l'Ouest. Connaître ces capitales permet de mieux situer les États de la région sur la carte du continent.",
+      "questions": [
+        {
+          "text": "Quelle est la capitale du Sénégal ?",
+          "answers": [
+            { "text": "Dakar", "isCorrect": true },
+            { "text": "Bamako", "isCorrect": false },
+            { "text": "Abidjan", "isCorrect": false },
+            { "text": "Conakry", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle est la capitale du Mali ?",
+          "answers": [
+            { "text": "Bamako", "isCorrect": true },
+            { "text": "Niamey", "isCorrect": false },
+            { "text": "Ouagadougou", "isCorrect": false },
+            { "text": "Bissau", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle est la capitale politique de la Côte d'Ivoire ?",
+          "answers": [
+            { "text": "Yamoussoukro", "isCorrect": true },
+            { "text": "Abidjan", "isCorrect": false },
+            { "text": "Bouaké", "isCorrect": false },
+            { "text": "San-Pédro", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quelle est la capitale du Nigeria ?",
+          "answers": [
+            { "text": "Abuja", "isCorrect": true },
+            { "text": "Lagos", "isCorrect": false },
+            { "text": "Kano", "isCorrect": false },
+            { "text": "Port Harcourt", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Indépendances en Afrique",
+      "period": "Années 1950–1960",
+      "order": 2,
+      "content": "Entre les années 1950 et 1960, de nombreux pays africains ont obtenu leur indépendance vis-à-vis des puissances coloniales européennes. Ce chapitre revient sur quelques dates importantes.",
+      "questions": [
+        {
+          "text": "Dans les années 1960, de nombreux pays africains obtiennent leur indépendance. Quel pays parmi les suivants est devenu indépendant en 1960 ?",
+          "answers": [
+            { "text": "Sénégal", "isCorrect": true },
+            { "text": "Guinée", "isCorrect": false },
+            { "text": "Afrique du Sud", "isCorrect": false },
+            { "text": "Algérie", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays est souvent cité comme le premier État d'Afrique subsaharienne à obtenir son indépendance en 1957 ?",
+          "answers": [
+            { "text": "Ghana", "isCorrect": true },
+            { "text": "Kenya", "isCorrect": false },
+            { "text": "Sénégal", "isCorrect": false },
+            { "text": "Nigeria", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "De quel pays la plupart des colonies d'Afrique de l'Ouest francophone se sont-elles libérées ?",
+          "answers": [
+            { "text": "La France", "isCorrect": true },
+            { "text": "Le Portugal", "isCorrect": false },
+            { "text": "L’Italie", "isCorrect": false },
+            { "text": "L’Espagne", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays d'Afrique du Nord a mené une longue guerre d'indépendance contre la France entre 1954 et 1962 ?",
+          "answers": [
+            { "text": "L’Algérie", "isCorrect": true },
+            { "text": "Le Maroc", "isCorrect": false },
+            { "text": "La Tunisie", "isCorrect": false },
+            { "text": "La Libye", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Institutions panafricaines",
+      "period": "XXe–XXIe siècle",
+      "order": 3,
+      "content": "Les institutions panafricaines comme l'Union africaine ou la CEDEAO jouent un rôle important dans la coopération politique, économique et sécuritaire entre les pays du continent.",
+      "questions": [
+        {
+          "text": "Quel sigle désigne l'organisation continentale qui a succédé à l'Organisation de l'unité africaine (OUA) ?",
+          "answers": [
+            { "text": "UA (Union africaine)", "isCorrect": true },
+            { "text": "UE", "isCorrect": false },
+            { "text": "CEDEAO", "isCorrect": false },
+            { "text": "CEMAC", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel est l’objectif principal de la CEDEAO ?",
+          "answers": [
+            { "text": "L’intégration économique et la libre circulation en Afrique de l’Ouest", "isCorrect": true },
+            { "text": "La défense militaire de l’Afrique centrale", "isCorrect": false },
+            { "text": "La promotion exclusive du football africain", "isCorrect": false },
+            { "text": "La gestion de la monnaie européenne", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Où se situe le siège de l’Union africaine ?",
+          "answers": [
+            { "text": "Addis-Abeba", "isCorrect": true },
+            { "text": "Abuja", "isCorrect": false },
+            { "text": "Nairobi", "isCorrect": false },
+            { "text": "Johannesburg", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel pays fait partie de la CEDEAO ?",
+          "answers": [
+            { "text": "Guinée", "isCorrect": true },
+            { "text": "Afrique du Sud", "isCorrect": false },
+            { "text": "Kenya", "isCorrect": false },
+            { "text": "Égypte", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Voyageur d'Afrique",
+      "description": "Tu as répondu à un quiz sur les capitales africaines.",
+      "icon": "🌍",
+      "condition": "Quiz capitales Afrique terminé"
+    },
+    {
+      "title": "Panafricaniste",
+      "description": "Tu connais les grandes institutions africaines.",
+      "icon": "🤝",
+      "condition": "Quiz institutions africaines terminé"
+    }
+  ]
+}

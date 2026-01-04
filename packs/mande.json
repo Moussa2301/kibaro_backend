@@ -1,0 +1,144 @@
+{
+  "chapters": [
+    {
+      "title": "L’Empire du Ghana",
+      "period": "VIIIe–XIe siècle",
+      "order": 1,
+      "content": "L’Empire du Ghana, à ne pas confondre avec le Ghana actuel, est l’un des premiers grands empires ouest-africains. Il contrôlait une partie du commerce de l’or et du sel.",
+      "questions": [
+        {
+          "text": "L’Empire du Ghana historique se situait principalement dans l’actuel :",
+          "answers": [
+            { "text": "Mali et Mauritanie", "isCorrect": true },
+            { "text": "Ghana moderne", "isCorrect": false },
+            { "text": "Guinée et Sierra Leone", "isCorrect": false },
+            { "text": "Maroc", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel commerce était central pour l’Empire du Ghana ?",
+          "answers": [
+            { "text": "L’or et le sel", "isCorrect": true },
+            { "text": "Le pétrole", "isCorrect": false },
+            { "text": "Le café", "isCorrect": false },
+            { "text": "Le cacao", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Comment appelle-t-on la région désertique qui jouait un rôle clé dans ces échanges ?",
+          "answers": [
+            { "text": "Le Sahara", "isCorrect": true },
+            { "text": "L’Amazonie", "isCorrect": false },
+            { "text": "Le Kilimandjaro", "isCorrect": false },
+            { "text": "Le Nil Bleu", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel peuple est souvent associé aux dirigeants de l’Empire du Ghana ?",
+          "answers": [
+            { "text": "Les Soninké", "isCorrect": true },
+            { "text": "Les Peuls", "isCorrect": false },
+            { "text": "Les Zoulous", "isCorrect": false },
+            { "text": "Les Vikings", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "L’Empire du Mali et le Mandé",
+      "period": "XIIIe–XVIe siècle",
+      "order": 2,
+      "content": "L’Empire du Mali, fondé par Soundiata Keïta, est au cœur de l’histoire du Mandé. Il a dominé une grande partie de l’Afrique de l’Ouest et kontrollé de nombreuses routes commerciales.",
+      "questions": [
+        {
+          "text": "Qui est le héros fondateur de l’Empire du Mali ?",
+          "answers": [
+            { "text": "Soundiata Keïta", "isCorrect": true },
+            { "text": "Samory Touré", "isCorrect": false },
+            { "text": "Askia Mohamed", "isCorrect": false },
+            { "text": "Mansa Musa", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel empereur malien est célèbre pour son pèlerinage à La Mecque et sa richesse ?",
+          "answers": [
+            { "text": "Mansa Musa", "isCorrect": true },
+            { "text": "Soundiata", "isCorrect": false },
+            { "text": "Sunni Ali", "isCorrect": false },
+            { "text": "Charlemagne", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "La bataille qui marque la victoire de Soundiata sur Soumaoro Kanté est celle de :",
+          "answers": [
+            { "text": "Kirina", "isCorrect": true },
+            { "text": "Waterloo", "isCorrect": false },
+            { "text": "Hastings", "isCorrect": false },
+            { "text": "Gorée", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Les griots du Mandé sont :",
+          "answers": [
+            { "text": "Des gardiens de la mémoire et de l’oralité", "isCorrect": true },
+            { "text": "Des soldats d’élite", "isCorrect": false },
+            { "text": "Des commerçants de sel", "isCorrect": false },
+            { "text": "Des constructeurs de pyramides", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "L’Empire Songhaï",
+      "period": "XVe–XVIe siècle",
+      "order": 3,
+      "content": "L’Empire Songhaï succède en partie à l’Empire du Mali et devient l’un des plus vastes empires d’Afrique. Son centre se situait autour de Gao et Tombouctou.",
+      "questions": [
+        {
+          "text": "Quelle ville était un grand centre intellectuel de l’Empire Songhaï ?",
+          "answers": [
+            { "text": "Tombouctou", "isCorrect": true },
+            { "text": "Johannesburg", "isCorrect": false },
+            { "text": "Abidjan", "isCorrect": false },
+            { "text": "Nairobi", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Quel grand souverain est associé à l’apogée de l’Empire Songhaï ?",
+          "answers": [
+            { "text": "Askia Mohamed", "isCorrect": true },
+            { "text": "Soundiata Keïta", "isCorrect": false },
+            { "text": "Mansa Musa", "isCorrect": false },
+            { "text": "Samory Touré", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Sur quel fleuve important se trouvaient plusieurs villes de l’Empire Songhaï ?",
+          "answers": [
+            { "text": "Le Niger", "isCorrect": true },
+            { "text": "Le Nil", "isCorrect": false },
+            { "text": "Le Congo", "isCorrect": false },
+            { "text": "Le Zambèze", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "L’Empire Songhaï décline notamment après des attaques venues de :",
+          "answers": [
+            { "text": "L’armée marocaine", "isCorrect": true },
+            { "text": "L’empire romain", "isCorrect": false },
+            { "text": "L’empire ottoman", "isCorrect": false },
+            { "text": "La Chine impériale", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "title": "Enfant du Mandé",
+      "description": "Tu connais les grandes empires ouest-africains.",
+      "icon": "🦁",
+      "condition": "Quiz empires ouest-africains complété"
+    }
+  ]
+}

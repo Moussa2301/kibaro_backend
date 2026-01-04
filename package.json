@@ -1,15 +1,16 @@
 {
-  "name": "kibaro-backend",
+  "name": "kibaro_backend",
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "build": "npm run prisma:generate && tsc",
-    "start": "node dist/server.js",
 
     "prisma:generate": "node ./node_modules/prisma/build/index.js generate",
-    "prisma:migrate": "node ./node_modules/prisma/build/index.js migrate deploy",
-    "prisma:deploy": "npm run prisma:generate && npm run prisma:migrate",
+    "prisma:push": "node ./node_modules/prisma/build/index.js db push",
+    "prisma:deploy": "npm run prisma:generate && npm run prisma:push",
+
+    "build": "npm run prisma:deploy && tsc",
+    "start": "node dist/server.js",
 
     "seed:pack": "ts-node prisma/seed-pack.ts",
     "seed": "node ./node_modules/prisma/build/index.js db seed"

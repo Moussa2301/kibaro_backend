@@ -40,15 +40,15 @@ const corsOptions: CorsOptions = {
 
     return callback(new Error(`CORS blocked: ${origin}`));
   },
-  credentials: false, // si un jour tu veux cookies => true + frontend aussi
+  credentials: false,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
 
 app.use(cors(corsOptions));
 
-// ✅ (optionnel mais utile) répond au preflight vite
-app.options("*", cors(corsOptions));
+// ✅ Express 5: pas de "*", utiliser une regex
+app.options(/.*/, cors(corsOptions));
 
 app.use(express.json());
 app.use(morgan("dev"));

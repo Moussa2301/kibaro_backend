@@ -6,10 +6,11 @@
     "dev": "nodemon src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "prisma:migrate": "prisma migrate dev",
+    "prisma:migrate": "prisma migrate deploy",
     "seed:pack": "ts-node prisma/seed-pack.ts",
     "prisma:generate": "prisma generate",
-    "seed": "prisma db seed"
+    "seed": "prisma db seed",
+    "prisma:deploy": "prisma generate && prisma migrate deploy"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"

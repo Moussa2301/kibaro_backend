@@ -4,14 +4,11 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-
     "prisma:generate": "node ./node_modules/prisma/build/index.js generate",
     "prisma:push": "node ./node_modules/prisma/build/index.js db push",
     "prisma:deploy": "npm run prisma:generate && npm run prisma:push",
-
     "build": "npm run prisma:deploy && tsc",
     "start": "node dist/server.js",
-
     "seed:pack": "ts-node prisma/seed-pack.ts",
     "seed": "node ./node_modules/prisma/build/index.js db seed"
   },
@@ -33,7 +30,7 @@
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
+    "express": "^4.22.1",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.10.1",
     "prisma": "^5.22.0",

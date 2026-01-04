@@ -1,5 +1,6 @@
+// src/app.ts
 import express from "express";
-import cors from "cors";
+import cors, { CorsOptions } from "cors";
 import morgan from "morgan";
 
 import authRoutes from "./routes/auth.routes";
@@ -17,26 +18,37 @@ import { errorHandler } from "./middlewares/errorHandler";
 
 const app = express();
 
-// ✅ CORS (dev + prod-ready)
+/**
+ * ✅ CORS (dev + prod-ready)
+ * - autorise localhost + ton domaine frontend en prod (FRONTEND_URL)
+ * - autorise aussi Postman/curl (origin absent)
+ */
 const allowedOrigins = [
   "http://localhost:5173",
   "http://127.0.0.1:5173",
   process.env.FRONTEND_URL, // ex: https://kibaro-history.vercel.app
 ].filter(Boolean) as string[];
 
-app.use(
-  cors({
-    origin: (origin, cb) => {
-      // autorise Postman/curl (pas d'origin) + origines connues
-      if (!origin) return cb(null, true);
-      if (allowedOrigins.includes(origin)) return cb(null, true);
-      return cb(new Error(`CORS blocked: ${origin}`));
-    },
-    credentials: false,
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
+const corsOptions: CorsOptions = {
+  origin: (origin, callback) => {
+    // Postman / curl / server-to-server => origin undefined
+    if (!origin) return callback(null, true);
+
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+
+    return callback(new Error(`CORS blocked: ${origin}`));
+  },
+  credentials: false, // si un jour tu veux cookies => true + frontend aussi
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
+
+app.use(cors(corsOptions));
+
+// ✅ (optionnel mais utile) répond au preflight vite
+app.options("*", cors(corsOptions));
 
 app.use(express.json());
 app.use(morgan("dev"));

@@ -1,5 +1,5 @@
 {
-  "name": "kibaro_backend",
+  "name": "kibaro-backend",
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {

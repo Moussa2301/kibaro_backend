@@ -4,36 +4,39 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
+    "build": "npm run prisma:deploy && tsc",
+    "start": "node dist/server.js",
+
     "prisma:generate": "node ./node_modules/prisma/build/index.js generate",
     "prisma:push": "node ./node_modules/prisma/build/index.js db push",
     "prisma:deploy": "npm run prisma:generate && npm run prisma:push",
-    "build": "npm run prisma:deploy && tsc",
-    "start": "node dist/server.js",
+
     "seed:pack": "ts-node prisma/seed-pack.ts",
     "seed": "node ./node_modules/prisma/build/index.js db seed"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
   },
-  "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/jsonwebtoken": "^9.0.10",
-    "@types/morgan": "^1.9.10",
-    "@types/node": "^25.0.3",
-    "nodemon": "^3.1.11",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
-  },
   "dependencies": {
     "@prisma/client": "^5.22.0",
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^4.22.1",
+    "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.10.1",
     "prisma": "^5.22.0",
-    "zod": "^4.2.1"
+    "zod": "^4.2.1",
+
+    "@types/node": "^25.0.3",
+    "@types/express": "^5.0.6",
+    "@types/cors": "^2.8.19",
+    "@types/morgan": "^1.9.10",
+    "@types/jsonwebtoken": "^9.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }

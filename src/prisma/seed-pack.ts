@@ -1,9 +1,7 @@
-// prisma/seed-pack.ts
-import { PrismaClient } from "@prisma/client";
+// src/prisma/seed-pack.ts
+import prisma from "./client";
 import fs from "fs";
 import path from "path";
-
-const prisma = new PrismaClient();
 
 type AnswerInput = { text: string; isCorrect: boolean };
 type QuestionInput = { text: string; answers: AnswerInput[] };
@@ -38,7 +36,6 @@ function shuffle<T>(arr: T[]) {
 }
 
 async function upsertChapter(ch: ChapterInput) {
-  // Chapitre unique par title
   const existing = await prisma.chapter.findFirst({ where: { title: ch.title } });
 
   if (!existing) {
@@ -52,7 +49,6 @@ async function upsertChapter(ch: ChapterInput) {
     });
   }
 
-  // On met à jour sans supprimer (seed "safe")
   return prisma.chapter.update({
     where: { id: existing.id },
     data: {
@@ -66,7 +62,6 @@ async function upsertChapter(ch: ChapterInput) {
 async function upsertQuestionAndAnswers(chapterId: string, q: QuestionInput) {
   const qText = q.text.trim();
 
-  // Question unique par (chapterId + text)
   const existingQ = await prisma.question.findFirst({
     where: { chapterId, text: qText },
     select: { id: true },
@@ -74,12 +69,13 @@ async function upsertQuestionAndAnswers(chapterId: string, q: QuestionInput) {
 
   const questionId = existingQ
     ? existingQ.id
-    : (await prisma.question.create({
-        data: { chapterId, text: qText },
-        select: { id: true },
-      })).id;
+    : (
+        await prisma.question.create({
+          data: { chapterId, text: qText },
+          select: { id: true },
+        })
+      ).id;
 
-  // ✅ Shuffle answers pour éviter que la bonne soit toujours la 1ère
   const shuffledAnswers = shuffle(
     q.answers.map((a) => ({
       text: a.text.trim(),
@@ -100,7 +96,6 @@ async function upsertQuestionAndAnswers(chapterId: string, q: QuestionInput) {
         data: { questionId, text: a.text, isCorrect: a.isCorrect },
       });
     } else {
-      // si existant, on s’assure que isCorrect est à jour
       await prisma.answer.update({
         where: { id: existingA.id },
         data: { isCorrect: a.isCorrect },
@@ -140,16 +135,13 @@ async function importPackFile(filePath: string) {
 
   console.log(`📦 Import pack: ${path.basename(filePath)}`);
 
-  // Chapitres + Q/R
   for (const ch of data.chapters) {
     const chapter = await upsertChapter(ch);
-
     for (const q of ch.questions) {
       await upsertQuestionAndAnswers(chapter.id, q);
     }
   }
 
-  // Badges
   if (data.badges?.length) {
     for (const b of data.badges) {
       await upsertBadge(b);
@@ -157,10 +149,10 @@ async function importPackFile(filePath: string) {
   }
 }
 
-async function main() {
+// ✅ Export: utilisable en Pre-Deploy Command
+export async function seedPacks() {
   if (!fs.existsSync(PACKS_DIR)) {
-    console.error(`❌ Dossier packs introuvable: ${PACKS_DIR}`);
-    process.exit(1);
+    throw new Error(`Dossier packs introuvable: ${PACKS_DIR}`);
   }
 
   const files = fs
@@ -174,19 +166,20 @@ async function main() {
   }
 
   console.log(`📚 ${files.length} pack(s) détecté(s) dans packs/`);
-
   for (const file of files) {
     await importPackFile(file);
   }
-
   console.log("✅ Import terminé (sans doublon).");
 }
 
-main()
-  .catch((e) => {
-    console.error("❌ Seed error:", e);
-    process.exit(1);
-  })
-  .finally(async () => {
-    await prisma.$disconnect();
-  });
+// ✅ Si lancé en ligne de commande: node dist/prisma/seed-pack.js
+if (require.main === module) {
+  seedPacks()
+    .catch((e) => {
+      console.error("❌ Seed error:", e);
+      process.exit(1);
+    })
+    .finally(async () => {
+      await prisma.$disconnect();
+    });
+}

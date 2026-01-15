@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const score_controller_1 = require("../controllers/score.controller");
+const authMiddleware_1 = require("../middlewares/authMiddleware");
+const validate_1 = require("../middlewares/validate");
+const score_schemas_1 = require("../validation/score.schemas");
+const router = (0, express_1.Router)();
+router.get("/me", authMiddleware_1.authMiddleware, score_controller_1.getMyScores);
+router.get("/leaderboard", score_controller_1.getLeaderboard);
+router.post("/sync-offline", authMiddleware_1.authMiddleware, (0, validate_1.validateBody)(score_schemas_1.syncOfflineScoresSchema), score_controller_1.syncOfflineScores);
+exports.default = router;

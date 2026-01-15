@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const chapter_controller_1 = require("../controllers/chapter.controller");
+const authMiddleware_1 = require("../middlewares/authMiddleware");
+const validate_1 = require("../middlewares/validate");
+const chapter_schemas_1 = require("../validation/chapter.schemas");
+const router = (0, express_1.Router)();
+router.get("/", chapter_controller_1.getChapters);
+router.get("/:id", chapter_controller_1.getChapterById);
+router.post("/", authMiddleware_1.authMiddleware, authMiddleware_1.adminMiddleware, (0, validate_1.validateBody)(chapter_schemas_1.createChapterSchema), chapter_controller_1.createChapter);
+router.put("/:id", authMiddleware_1.authMiddleware, authMiddleware_1.adminMiddleware, (0, validate_1.validateBody)(chapter_schemas_1.createChapterSchema), chapter_controller_1.updateChapter);
+router.delete("/:id", authMiddleware_1.authMiddleware, authMiddleware_1.adminMiddleware, chapter_controller_1.deleteChapter);
+exports.default = router;

@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import prisma from "../prisma/client";
+import bcrypt from "bcryptjs";
 
 export const getAdminDashboard = async (_req: Request, res: Response) => {
   try {
@@ -126,6 +127,46 @@ export const getAdminUsers = async (req: Request, res: Response) => {
     });
   } catch (err) {
     console.error("getAdminUsers error", err);
+    return res.status(500).json({ msg: "Erreur serveur" });
+  }
+};
+function generateTempPassword(len = 10) {
+  // Simple + lisible (évite les caractères ambigus)
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789@#";
+  let out = "";
+  for (let i = 0; i < len; i++) out += chars[Math.floor(Math.random() * chars.length)];
+  return out;
+}
+
+export const adminResetUserPassword = async (req: Request, res: Response) => {
+  try {
+    const userId = req.params.id;
+
+    // (Optionnel mais conseillé) : empêcher reset d’un autre admin, ou de soi-même
+    const target = await prisma.user.findUnique({ where: { id: userId }, select: { id: true, role: true } });
+    if (!target) return res.status(404).json({ msg: "Utilisateur introuvable" });
+
+    // Génère un mot de passe temporaire
+    const tempPassword = generateTempPassword(12);
+    const hash = await bcrypt.hash(tempPassword, 10);
+
+    await prisma.user.update({
+      where: { id: userId },
+      data: {
+        password: hash,
+        // BONUS recommandé si tu ajoutes ce champ en DB :
+        // mustChangePassword: true,
+      },
+    });
+
+    // IMPORTANT: on renvoie le mdp temporaire UNE SEULE fois
+    return res.json({
+      ok: true,
+      tempPassword,
+      msg: "Mot de passe réinitialisé. Transmets le mot de passe temporaire à l'utilisateur.",
+    });
+  } catch (err) {
+    console.error("adminResetUserPassword error", err);
     return res.status(500).json({ msg: "Erreur serveur" });
   }
 };

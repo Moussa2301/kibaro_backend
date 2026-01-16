@@ -3,8 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getAdminDashboard = void 0;
+exports.adminResetUserPassword = exports.getAdminUsers = exports.getAdminDashboard = void 0;
 const client_1 = __importDefault(require("../prisma/client"));
+const bcryptjs_1 = __importDefault(require("bcryptjs"));
 const getAdminDashboard = async (_req, res) => {
     try {
         const now = new Date();
@@ -85,3 +86,76 @@ const getAdminDashboard = async (_req, res) => {
     }
 };
 exports.getAdminDashboard = getAdminDashboard;
+const getAdminUsers = async (req, res) => {
+    try {
+        const takeRaw = Number(req.query.take ?? 50);
+        const take = Math.min(Math.max(takeRaw, 10), 200); // max 200 par page (safe)
+        const cursor = req.query.cursor ? String(req.query.cursor) : null;
+        const users = await client_1.default.user.findMany({
+            take: take + 1, // +1 pour savoir s'il y a une page suivante
+            ...(cursor ? { cursor: { id: cursor }, skip: 1 } : {}),
+            orderBy: { createdAt: "desc" },
+            select: {
+                id: true,
+                username: true,
+                email: true,
+                points: true,
+                level: true,
+                role: true,
+                createdAt: true,
+            },
+        });
+        const hasNextPage = users.length > take;
+        const items = hasNextPage ? users.slice(0, take) : users;
+        const nextCursor = hasNextPage ? items[items.length - 1].id : null;
+        return res.json({
+            items,
+            nextCursor,
+            hasNextPage,
+        });
+    }
+    catch (err) {
+        console.error("getAdminUsers error", err);
+        return res.status(500).json({ msg: "Erreur serveur" });
+    }
+};
+exports.getAdminUsers = getAdminUsers;
+function generateTempPassword(len = 10) {
+    // Simple + lisible (évite les caractères ambigus)
+    const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789@#";
+    let out = "";
+    for (let i = 0; i < len; i++)
+        out += chars[Math.floor(Math.random() * chars.length)];
+    return out;
+}
+const adminResetUserPassword = async (req, res) => {
+    try {
+        const userId = req.params.id;
+        // (Optionnel mais conseillé) : empêcher reset d’un autre admin, ou de soi-même
+        const target = await client_1.default.user.findUnique({ where: { id: userId }, select: { id: true, role: true } });
+        if (!target)
+            return res.status(404).json({ msg: "Utilisateur introuvable" });
+        // Génère un mot de passe temporaire
+        const tempPassword = generateTempPassword(12);
+        const hash = await bcryptjs_1.default.hash(tempPassword, 10);
+        await client_1.default.user.update({
+            where: { id: userId },
+            data: {
+                password: hash,
+                // BONUS recommandé si tu ajoutes ce champ en DB :
+                // mustChangePassword: true,
+            },
+        });
+        // IMPORTANT: on renvoie le mdp temporaire UNE SEULE fois
+        return res.json({
+            ok: true,
+            tempPassword,
+            msg: "Mot de passe réinitialisé. Transmets le mot de passe temporaire à l'utilisateur.",
+        });
+    }
+    catch (err) {
+        console.error("adminResetUserPassword error", err);
+        return res.status(500).json({ msg: "Erreur serveur" });
+    }
+};
+exports.adminResetUserPassword = adminResetUserPassword;

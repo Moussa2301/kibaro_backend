@@ -93,3 +93,39 @@ export const getAdminDashboard = async (_req: Request, res: Response) => {
     return res.status(500).json({ msg: "Erreur serveur" });
   }
 };
+
+export const getAdminUsers = async (req: Request, res: Response) => {
+  try {
+    const takeRaw = Number(req.query.take ?? 50);
+    const take = Math.min(Math.max(takeRaw, 10), 200); // max 200 par page (safe)
+    const cursor = req.query.cursor ? String(req.query.cursor) : null;
+
+    const users = await prisma.user.findMany({
+      take: take + 1, // +1 pour savoir s'il y a une page suivante
+      ...(cursor ? { cursor: { id: cursor }, skip: 1 } : {}),
+      orderBy: { createdAt: "desc" },
+      select: {
+        id: true,
+        username: true,
+        email: true,
+        points: true,
+        level: true,
+        role: true,
+        createdAt: true,
+      },
+    });
+
+    const hasNextPage = users.length > take;
+    const items = hasNextPage ? users.slice(0, take) : users;
+    const nextCursor = hasNextPage ? items[items.length - 1].id : null;
+
+    return res.json({
+      items,
+      nextCursor,
+      hasNextPage,
+    });
+  } catch (err) {
+    console.error("getAdminUsers error", err);
+    return res.status(500).json({ msg: "Erreur serveur" });
+  }
+};

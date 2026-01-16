@@ -31,12 +31,34 @@ export const getAdminDashboard = async (_req: Request, res: Response) => {
       prisma.room.count({ where: { createdAt: { gte: d7 } } }),
     ]);
 
-    // Classement Top 20
-    const leaderboard = await prisma.user.findMany({
-      orderBy: { points: "desc" },
-      take: 20,
-      select: { id: true, username: true, points: true, level: true, createdAt: true },
+    // ✅ Classement (points réels) = somme des scores par user
+    const leaderboardAgg = await prisma.score.groupBy({
+      by: ["userId"],
+      _sum: { points: true },
+      orderBy: { _sum: { points: "desc" } },
+      take: 1000000, // ✅ au lieu de 20 (mets 100 si tu veux)
     });
+
+    const userIds = leaderboardAgg.map((x) => x.userId);
+
+    const users = await prisma.user.findMany({
+      where: { id: { in: userIds } },
+      select: { id: true, username: true, level: true, createdAt: true },
+    });
+
+    const uMap = new Map(users.map((u) => [u.id, u]));
+
+    const leaderboard = leaderboardAgg.map((x) => {
+      const u = uMap.get(x.userId);
+      return {
+        id: x.userId,
+        username: u?.username ?? "—",
+        level: u?.level ?? 1,
+        createdAt: u?.createdAt ?? null,
+        points: x._sum.points ?? 0,
+      };
+    });
+
 
     // Fréquence par jour (quiz joués) sur 7 jours
     const scores = await prisma.score.findMany({
